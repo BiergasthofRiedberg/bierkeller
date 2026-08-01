@@ -1,0 +1,4226 @@
+[
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Beef Tatar auf Toast",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (böhmisch)",
+      "Wiener Lager (filtriert)",
+      "English Bitter",
+      "Zwickelbier (österreichisch)",
+      "Märzen (bayrisch)",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Beef Tatar auf getoastetem Bierbrot",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Landbier",
+      "Fränkisches Kellerbier",
+      "English Brown Ale",
+      "Dunkles Lager (Münchner Dunkel)",
+      "Altbier (Düsseldorfer)",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Carpaccio vom Rinderfilet mit Pinienkernen, Rucola und Parmesan",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Dunkles Lager (Münchner Dunkel)",
+      "Witbier",
+      "Belgian Blonde",
+      "Wiener Lager (filtriert)",
+      "Mild"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Carpaccio vom Rinderfilet mit Vogerlsalat und Bieressig",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Zwickelbier (österreichisch)",
+      "Trappist Dubbel",
+      "Irish Red Ale",
+      "Dunkles Weizen",
+      "Session IPA"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Carpaccio vom Innviertler Surspeck",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Rauchbier (Bamberg)",
+      "Wiener Zwickl (unfiltriert)",
+      "Grätzer / Grodziskie",
+      "Weizenbock (dunkel)",
+      "Belgian Quadrupel / Dark Strong Ale"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Carpaccio vom Innviertler Surspeck mit Kürbis und karamellisiertem Malz",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "Dunkles Lager (Münchner Dunkel)",
+      "New England IPA / Hazy IPA",
+      "Hefeweizen (bayrisch mainstream)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Kürbiscarpaccio mit Weißbierschaum und kleinem Salat",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "Berliner Weisse (Frucht-Version)",
+      "Session IPA",
+      "Kristallweizen"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Tomaten mit Mozzarella, Basilikum und Kapernbeeren",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Kellerpils (deutsch)",
+      "Berliner Weisse (Frucht-Version)",
+      "Flanders Red Ale",
+      "Zusers feinster Meilenstein 1532 1. Edition"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Carpaccio vom Thunfisch mit Limetten-Senf-Marinade",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "West Coast IPA",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Belgian Blonde"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Geräuchertes Forellenfilet mit Oberskren",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Rauchbier (Bamberg)",
+      "Grätzer / Grodziskie",
+      "Witbier",
+      "Berliner Weisse (klassisch)",
+      "Oatmeal Stout"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Geräuchertes Forellenfilet auf Blattsalaten mit Bieressig-Vinaigrette",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Rauchweizen",
+      "Hefeweizen (schneiderisch/dunkler)",
+      "Trappist Blonde",
+      "Fränkisches Kellerbier",
+      "Irish Dry Stout"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Gebratenes Welsfilet auf Bieressig-Blattsalaten",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "American Stout",
+      "American Amber Ale",
+      "ESB (Extra Special Bitter)",
+      "Saison (modern/US-Farmhouse)",
+      "Witbier",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Mit Hopfen geräuchertes Hechtfilet auf Blattsalaten",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Rauchbier (Bamberg)",
+      "Wiener Lager (filtriert)",
+      "English Bitter",
+      "Irish Dry Stout",
+      "Wild Ale (American)",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Räucherlachs mit Dill-Senf-Sauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Rauchbier (Bamberg)",
+      "Grätzer / Grodziskie",
+      "Witbier",
+      "Berliner Weisse (klassisch)",
+      "Pilsner (böhmisch)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Lachs-Gervais-Röllchen auf Vogerlsalat",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Berliner Weisse (Frucht-Version)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Duett von geräuchertem Fisch und Fleisch",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Rauchbier (Bamberg)",
+      "Grätzer / Grodziskie",
+      "Witbier",
+      "Berliner Weisse (klassisch)",
+      "Märzen (österreichisch)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Geräucherter Wildschinken mit Zwetschkenrelish",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel",
+      "Baltic Porter",
+      "Belgian Dubbel",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Wildschinken mit Preiselbeerschaum und Kernöl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel",
+      "Baltic Porter",
+      "Belgian Dubbel",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Herbstlicher Salat mit geräuchertem Wildschinken",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel",
+      "Baltic Porter",
+      "Belgian Dubbel",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Gänseleberparfait auf Blattsalaten mit Nüssen",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Berliner Weisse (Frucht-Version)",
+      "Session IPA",
+      "Hefeweizen (bayrisch mainstream)",
+      "Gueuze"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Spargel mit Balsamico und Olivenöl auf Blattsalaten",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "Lambic (jung)",
+      "Session IPA",
+      "Kriek (Kirsch-Lambic)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Hauchdünn geschnittener Tafelspitz mit Schnittlauchvinaigrette",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Kellerpils (deutsch)",
+      "Märzen (österreichisch)",
+      "Oud Bruin (Flanders Brown)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Blattsalate mit Kartoffel-Speck-Gröstl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Rauchbier (Bamberg)",
+      "Dunkles Weizen",
+      "Dunkles Lager (Münchner Dunkel)",
+      "Fränkisches Kellerbier",
+      "Zusers Bürgerbräu"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Blattsalate mit Huftsteak",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Imperial Stout / Russian Imperial Stout",
+      "American Amber Ale",
+      "ESB (Extra Special Bitter)",
+      "American Stout",
+      "Robust Porter (English)",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Blattsalate mit rosa gebratenen Rehtranchen",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel",
+      "Baltic Porter",
+      "Belgian Dubbel",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Blattsalate mit gebackenen Hühnerbruststreifen",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Berliner Weisse (Frucht-Version)",
+      "Session IPA",
+      "Hefeweizen (bayrisch mainstream)",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Blattsalate mit gebackenen Schinken-Käseröllchen",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Berliner Weisse (Frucht-Version)",
+      "Session IPA",
+      "Gose (Leipziger)",
+      "Zoigl"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Gebackene Spargel-Schinken-Käseröllchen auf Blattsalaten",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Alkoholfreies Weizen",
+      "Saison (klassisch/Dupont-Typ)",
+      "Kellerpils (deutsch)",
+      "Session IPA",
+      "Berliner Weisse (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Gebratene Hühnerstreifen in Kürbiskernkruste auf Kürbis-Malzrisotto",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "Kellerpils (deutsch)",
+      "Session IPA",
+      "Hefeweizen (bayrisch mainstream)",
+      "Brauerei Ried - Kürbiskernbier "
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Mit Kürbiskernen paniertes Hühnerfilet auf Blattsalaten",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "American Stout",
+      "American Amber Ale",
+      "ESB (Extra Special Bitter)",
+      "American Stout",
+      "Witbier",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Steak-Cocktail mit Weißbierschaum",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Imperial Stout / Russian Imperial Stout",
+      "American Amber Ale",
+      "English Bitter",
+      "American Stout",
+      "Dunkles Weizen",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Gratiniertes Malzbierweckerl mit Eierschwammerln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (böhmisch)",
+      "Witbier",
+      "Kellerpils (deutsch)",
+      "Wiener Lager (filtriert)",
+      "Märzen (bayrisch)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Gratinierte Schinken-Bierbrötchen",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Fränkisches Kellerbier",
+      "Zoigl",
+      "Zwickelbier (österreichisch)",
+      "Helles (Münchner)",
+      "Pilsner (böhmisch)"
+    ]
+  },
+  {
+    "kategorie": "Vorspeisen",
+    "unterkategorie": "",
+    "gericht": "Hausgemachtes Bierbrot mit Aufstrichen",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Festbier / Oktoberfestbier hell",
+      "Schwarzbier",
+      "Wiener Dunkel",
+      "Bock (dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Echte Rindsuppe mit Frittaten",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Wiener Zwickl (unfiltriert)",
+      "Märzen (österreichisch)",
+      "Helles (Münchner)",
+      "Pilsner (böhmisch)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Echte Rindsuppe mit Leberknödel",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Märzen (bayrisch)",
+      "Wiener Dunkel",
+      "Kölsch",
+      "Altbier (Düsseldorfer)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Echte Rindsuppe mit Kaspressknödel",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Fränkisches Kellerbier",
+      "Roggenbier",
+      "Brett Ale (Brettanomyces)",
+      "Steinbier",
+      "Adambier / Dortmunder Adam"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Echte Rindsuppe mit Fleischstrudel",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Mexican Vienna Lager",
+      "Irish Red Ale",
+      "Märzen (österreichisch)",
+      "Helles (Münchner)",
+      "Landbier"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Rindsuppe mit Bierfrittaten",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Wiener Zwickl (unfiltriert)",
+      "Märzen (österreichisch)",
+      "Helles (Münchner)",
+      "Kölsch"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Rindsuppe mit Bier-Grießnockerl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Wiener Zwickl (unfiltriert)",
+      "Märzen (österreichisch)",
+      "Helles (Münchner)",
+      "Altbier (Düsseldorfer)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Rindsuppe mit Malzschöberl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Wiener Zwickl (unfiltriert)",
+      "Märzen (österreichisch)",
+      "Helles (Münchner)",
+      "Zoigl"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Rindsuppe mit Markknödel und Selleriewürfeln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Wiener Zwickl (unfiltriert)",
+      "Märzen (österreichisch)",
+      "Helles (Münchner)",
+      "Märzen (bayrisch)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Tafelspitzbouillon mit Grießnockerl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Helles (Münchner)",
+      "Märzen (österreichisch)",
+      "Wiener Dunkel",
+      "Roggenbier"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Gansleinmachsuppe mit zweierlei Knödel",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Dubbel",
+      "Trappist Dubbel",
+      "Bière de Garde",
+      "Old Ale",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Wildsuppe mit Obers und Biergebäckcroûtons",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel",
+      "Baltic Porter",
+      "Belgian Dubbel",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Wildpüreesuppe mit Preiselbeeren",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Grätzer / Grodziskie",
+      "Abtei Dubbel",
+      "Oud Bruin (Flanders Brown)",
+      "Robust Porter (English)",
+      "Imperial Stout / Russian Imperial Stout",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Malz-Bier-Cremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Helles (Münchner)",
+      "Hefeweizen (bayrisch mainstream)",
+      "Schwarzbier",
+      "Zwickelbier (österreichisch)",
+      "Pilsner (böhmisch)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Biercremesuppe mit Obershäubchen und Malzgebäckcroûtons",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Dunkles Lager (Münchner Dunkel)",
+      "Wiener Lager (filtriert)",
+      "Wiener Dunkel",
+      "Landbier",
+      "Fränkisches Kellerbier"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Bierschaumsuppe mit Zwiebel-Käseecken",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Trappist Blonde",
+      "Berliner Weisse (klassisch)",
+      "Weizenbock (hell)",
+      "Helles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Cremesuppe von Rieder Weizendoppelbock und Hopfen",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Helles (Münchner)",
+      "Hefeweizen (bayrisch mainstream)",
+      "Weizenbock (hell)",
+      "Helles Weizen",
+      "Witbier"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Kürbis-Ingwer-Cremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "Kellerpils (deutsch)",
+      "Session IPA",
+      "Hefeweizen (bayrisch mainstream)",
+      "Rieder Kürbiskernbier"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Cremesuppe vom heimischen Kürbis mit Kürbiskernschaum",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Blonde",
+      "Trappist Blonde",
+      "Abtei Blonde",
+      "Märzen (bayrisch)",
+      "Weizen hell"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Sellerie-Bier-Cremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Dunkles Lager (Münchner Dunkel)",
+      "Weizenbock (dunkel)",
+      "Dunkles Weizen",
+      "Wiener Lager (filtriert)",
+      "Märzen (bayrisch)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Selleriecremesuppe mit Bier",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Helles (Münchner)",
+      "Hefeweizen (schneiderisch/dunkler)",
+      "Bock (dunkel)",
+      "Festbier / Oktoberfestbier hell",
+      "Roggenbier"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Pastinaken-Bier-Cremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Hefeweizen (bayrisch mainstream)",
+      "Weizenbock (dunkel)",
+      "Dunkles Lager (Münchner Dunkel)",
+      "Dunkles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Petersilienwurzel-Bierschaumsuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Fränkisches Kellerbier",
+      "Landbier",
+      "Märzen (österreichisch)",
+      "Zoigl",
+      "Märzen (bayrisch)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Karotten-Orangen-Ingwer-Biersuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Kristallweizen",
+      "Witbier",
+      "Märzen (österreichisch)",
+      "English IPA",
+      "English Bitter"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Karotten-Ingwer-Bierschaumsuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Helles (Münchner)",
+      "Märzen (österreichisch)",
+      "Märzen (bayrisch)",
+      "Roggenbier"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Radieschen-Bierschaumsuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Alkoholfreies Weizen",
+      "Märzen (österreichisch)",
+      "Helles (Münchner)",
+      "Dunkles Lager (Münchner Dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Brokkolicremesuppe mit Bier",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Helles (Münchner)",
+      "Hefeweizen (bayrisch mainstream)",
+      "Kellerpils (deutsch)",
+      "Zwickelbier (österreichisch)",
+      "Maibock / Heller Bock"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Karfiolcremesuppe mit Bier",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Fränkisches Kellerbier",
+      "Hefeweizen (bayrisch mainstream)",
+      "Weizenbock (hell)",
+      "Helles Weizen",
+      "Wiener Dunkel"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Kohlrabi-Biercremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Helles (Münchner)",
+      "Hefeweizen (bayrisch mainstream)",
+      "Wiener Dunkel",
+      "Helles Weizen",
+      "Landbier"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Lauch-Kartoffel-Biercremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Zwickl (unfiltriert)",
+      "Kellerpils (deutsch)",
+      "Helles (Münchner)",
+      "Dunkles Lager (Münchner Dunkel)",
+      "Wiener Dunkel"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Bärlauch-Biercremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Helles (Münchner)",
+      "Hefeweizen (bayrisch mainstream)",
+      "Roggenbier",
+      "Helles Weizen",
+      "Wiener Dunkel"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Bärlauch-Kartoffelcremesuppe mit Bierbrotchips",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Zwickl (unfiltriert)",
+      "Kellerpils (deutsch)",
+      "Helles (Münchner)",
+      "Landbier",
+      "Märzen (bayrisch)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Spargel-Biercremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "Wiener Zwickl (unfiltriert)",
+      "Session IPA",
+      "Hefeweizen (bayrisch mainstream)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Spargelschaumsuppe mit Bier",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Fruit Sour Ale",
+      "Berliner Weisse (Frucht-Version)",
+      "Framboise (Himbeer-Lambic)",
+      "West Coast IPA",
+      "Lambic (jung)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Eierschwammerl-Bier-Cremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Helles (Münchner)",
+      "Hefeweizen (bayrisch mainstream)",
+      "Roggenbier",
+      "Märzen (bayrisch)",
+      "Dunkles Lager (Münchner Dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Steinpilz-Bier-Cremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Zwickl (unfiltriert)",
+      "Hefeweizen (bayrisch mainstream)",
+      "Wiener Dunkel",
+      "Helles Weizen",
+      "Märzen (bayrisch)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Steinpilz-Lauchcremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Helles (Münchner)",
+      "Wiener Lager (filtriert)",
+      "Dunkles Lager (Münchner Dunkel)",
+      "Altbier (Düsseldorfer)",
+      "Grätzer / Grodziskie"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Morchel-Biercremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Hefeweizen (bayrisch mainstream)",
+      "Dunkles Weizen",
+      "Märzen (bayrisch)",
+      "Wiener Dunkel"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Champignoncremesuppe mit gemalztem Obers",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Zwickelbier (österreichisch)",
+      "Landbier",
+      "Zoigl",
+      "Helles Weizen",
+      "Wiener Zwickl (unfiltriert)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Käse-Bier-Cremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Zwickl (unfiltriert)",
+      "Belgian Dubbel",
+      "Märzen (bayrisch)",
+      "Dunkles Lager (Münchner Dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Käse-Knoblauch-Biersuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (bayrisch)",
+      "Zwickelbier (österreichisch)",
+      "Fränkisches Kellerbier",
+      "Landbier",
+      "Wiener Lager (filtriert)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Knoblauch-Bier-Cremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Dunkel",
+      "Helles Weizen",
+      "Dunkles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Zwiebel-Bier-Suppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Trappist Blonde",
+      "Belgian Dubbel",
+      "Witbier",
+      "Zwickelbier (österreichisch)",
+      "Kellerpils (deutsch)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Zwiebel-Malzbier-Suppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Dunkles Lager (Münchner Dunkel)",
+      "Wiener Dunkel",
+      "Hefeweizen (schneiderisch/dunkler)",
+      "Märzen (bayrisch)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Geräucherte Zwiebelsuppe mit Rauchbier",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Rauchbier (Bamberg)",
+      "Rauchweizen",
+      "Grätzer / Grodziskie",
+      "Kräuterbier (Gruit)",
+      "Dunkles Lager (Münchner Dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Tomatencremesuppe mit Basilikumöl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Helles (Münchner)",
+      "Hefeweizen (bayrisch mainstream)",
+      "Session IPA",
+      "Helles Weizen",
+      "Landbier",
+      "Zusers feinster Meilenstein 1532 1. Edition"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Gazpacho-Biersuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Helles (Münchner)",
+      "Märzen (österreichisch)",
+      "Landbier",
+      "Zoigl"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Belgische Apfel-Weißbier-Cremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Hefeweizen (bayrisch mainstream)",
+      "Berliner Weisse (Frucht-Version)",
+      "Belgian Blonde",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Blaukrautcremesuppe",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "American IPA",
+      "Kirsch-Bier (nicht Lambic)",
+      "Gose (Leipziger)",
+      "Lambic (jung)",
+      "Framboise (Himbeer-Lambic)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Rotkrautsuppe mit Orangenobers",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Berliner Weisse (klassisch)",
+      "Gose (moderne Neuinterpretation)",
+      "Gueuze",
+      "Kriek (Kirsch-Lambic)",
+      "Brett Ale (Brettanomyces)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Klachelsuppe mit Bier",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Export (Dortmunder)",
+      "Märzen (bayrisch)",
+      "Landbier",
+      "Fränkisches Kellerbier"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Klachel-Kren-Suppe mit Bier",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Zoigl",
+      "Festbier / Oktoberfestbier hell",
+      "Märzen (österreichisch)",
+      "Wiener Dunkel",
+      "Zwickelbier (österreichisch)"
+    ]
+  },
+  {
+    "kategorie": "Suppen",
+    "unterkategorie": "",
+    "gericht": "Klare Gemüse-Suppe mit Oud bruin verfeinert + Kräutertaler",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Oud Bruin (Flanders Brown)",
+      "Flanders Red Ale",
+      "English Bitter",
+      "ESB (Extra Special Bitter)",
+      "Brett Ale (Brettanomyces)"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Bärlauch-Malzknödel in brauner Butter mit Parmesan",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Blonde",
+      "Witbier",
+      "Kristallweizen",
+      "Kellerpils (deutsch)",
+      "Helles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Kaspressknödel auf Bierkraut",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Zwickl (unfiltriert)",
+      "Rauchbier (Bamberg)",
+      "Roggenbier",
+      "Zwickelbier (österreichisch)",
+      "Zoigl"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Gemischter Innviertler Knödelteller auf Biersauerkraut",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Rauchbier (Bamberg)",
+      "Flanders Red Ale",
+      "Wild Ale (American)",
+      "Dunkles Lager (Münchner Dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Innviertler Knödeltrilogie auf Biersauerkraut",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Zwickl (unfiltriert)",
+      "Rauchbier (Bamberg)",
+      "Roggenbier",
+      "Oud Bruin (Flanders Brown)",
+      "Grätzer / Grodziskie"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Grammelknödel mit Bierkraut und Bocksauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Flanders Red Ale",
+      "Rauchbock",
+      "Roggenbier",
+      "Oud Bruin (Flanders Brown)",
+      "Wild Ale (American)"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Geröstete Semmelknödel mit Zwiebel und Ei",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Blonde",
+      "Witbier",
+      "Kristallweizen",
+      "Kellerpils (deutsch)",
+      "Helles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Bärlauch-Käse-Spätzle",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Saison (klassisch/Dupont-Typ)",
+      "Belgian Dubbel",
+      "Dunkles Weizen",
+      "Wiener Zwickl (unfiltriert)",
+      "Grätzer / Grodziskie"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Biernudeln mit Eierschwammerln in Rahmsauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Blonde",
+      "Witbier",
+      "Kristallweizen",
+      "Fränkisches Kellerbier",
+      "Helles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Biernudeln mit Herrenpilzen in Bierrahmsauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Saison (modern/US-Farmhouse)",
+      "Trappist Blonde",
+      "Oud Bruin (Flanders Brown)",
+      "Märzen (bayrisch)",
+      "Altbier (Düsseldorfer)"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Biernudeln mit Bärlauchpesto und Hartkäse",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Blonde",
+      "Belgian Dubbel",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Wiener Dunkel"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Steinpilzrahm auf Biermalznudeln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Saison (klassisch/Dupont-Typ)",
+      "Helles Weizen",
+      "Dunkles Weizen",
+      "Fränkisches Kellerbier",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Frischer Spargel mit Butter, Parmesan, Schinken und Erdäpfeln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "English Bitter",
+      "English IPA",
+      "Pilsner (böhmisch)"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Heimischer Spargel mit Butter, Parmesan und Räucherlachs",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Rauchbier (Bamberg)",
+      "Grätzer / Grodziskie",
+      "Witbier",
+      "Berliner Weisse (klassisch)",
+      "Saison (klassisch/Dupont-Typ)"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Spargel mit Sauce Béarnaise und Steak vom heimischen Ochsenfleisch",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "Lambic (jung)",
+      "Cold IPA",
+      "Hefeweizen (schneiderisch/dunkler)"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Spargelragout mit zartweich gekochtem Tafelspitz",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Saison (modern/US-Farmhouse)",
+      "Bière de Garde",
+      "Trappist Tripel",
+      "Brut IPA",
+      "Gose (Leipziger)"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Gebackener Emmentaler mit Petersilienkartoffeln und Salat",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Berliner Weisse (Frucht-Version)",
+      "Brut IPA",
+      "Hefeweizen (bayrisch mainstream)",
+      "Zwickelbier (österreichisch)"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Bierbratwurst auf Bierkraut",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Zwickl (unfiltriert)",
+      "Rauchbier (Bamberg)",
+      "Roggenbier",
+      "Wiener Lager (filtriert)",
+      "Dunkles Lager (Münchner Dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Zwischengerichte",
+    "unterkategorie": "",
+    "gericht": "Kalbsbeuscherl mit Bröselknödel",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Blonde",
+      "Wild Ale (American)",
+      "Rauchweizen",
+      "Abtei Dubbel",
+      "Dunkles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Gebratenes Forellenfilet auf Eierschwammerlrisotto mit Weißbierschaum",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Maibock / Heller Bock",
+      "Trappist Dubbel",
+      "Bock (dunkel)",
+      "Belgian Dubbel",
+      "Kräuterbier (Gruit)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Forellenfilet auf Kürbisrisotto mit IPA-Sauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Bock (hell)",
+      "Trappist Tripel",
+      "Belgian IPA",
+      "Double / Imperial IPA",
+      "New Zealand IPA",
+      "Rieder Kürbiskernbier"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Forellenfilet in Bierteig mit Kartoffelsalat",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Irish Dry Stout",
+      "English Bitter",
+      "ESB (Extra Special Bitter)",
+      "Wiener Lager (filtriert)",
+      "Steinbier"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Forellenfilet in Bierteig auf Pilzrisotto",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Zwickl (unfiltriert)",
+      "Dunkles Lager (Münchner Dunkel)",
+      "Dunkles Weizen",
+      "Wiener Dunkel",
+      "Kräuterbier (Gruit)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Forellenstreifen im Bierbackteig auf Rucolasalat",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Oud Bruin (Flanders Brown)",
+      "Flanders Red Ale",
+      "Märzen (bayrisch)",
+      "Hefeweizen (schneiderisch/dunkler)",
+      "Dunkles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Forelle Müllerin mit Karfiol-Malz-Gemüse",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Helles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Forelle Brauherren Art mit gehopftem Reis",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Helles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Forelle auf Biernudeln mit Bärlauchpesto und Weißbierschaum",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Helles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Forellenfilet mit gehopftem Gemüse und Bärlauchbutter",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Forellenfilet auf Limetten-Bier-Nudeln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "In Vorderwürze pochierte Forelle mit Wurzelgemüse und Malzkartoffeln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Helles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Gebratenes Saiblingfilet mit Wurzelgemüse, Kren und Erdäpfeln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Saibling auf Kren-Malz-Risotto",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Helles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Saibling auf Spargelrisotto",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Saison (klassisch/Dupont-Typ)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Saibling auf Steinpilz-Malz-Pastinakenpüree",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Helles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Bachsaibling auf Weißbiersauce mit Petersilienkartoffeln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Helles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Bachsaibling mit Spargel und Weißbier-Hollandaise",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Saison (klassisch/Dupont-Typ)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Zanderfilet in Malzkruste auf Kürbisrisotto",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Zanderfilet in Malzkruste auf Spargelrisotto",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Zanderfilet in Malzbierkruste auf Schwammerlrisotto",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Zanderfilet auf IPA-Hopfen-Risotto",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Zanderfilet auf Bier-Lauchrisotto",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Zanderfilet auf Eierschwammerlrisotto",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Zanderfilet auf Bier-Gemüse-Nudeln mit Weißbierschaum",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Zanderfilet in Orangen-IPA-Sauce auf Malznudeln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Zanderfilet in Weißbierwürze mit Wurzelgemüse",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Zanderfilet in Kräuter-Knoblauchkruste auf Gemüserisotto",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Welsfilet mit Ratatouille und Bierreis",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Imperial Stout / Russian Imperial Stout",
+      "American Amber Ale",
+      "ESB (Extra Special Bitter)",
+      "American Stout",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Waller in Vorderwürze mit Wurzelgemüse",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Fisch",
+    "gericht": "Lachs in Vorderwürze mit Wurzelgemüse und Malzkartoffeln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Witbier",
+      "Helles (Münchner)",
+      "Kristallweizen",
+      "Helles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Zusers Rindsgulasch",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Dunkel",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)",
+      "Wiener Zwickl (unfiltriert)",
+      "Zusers Bürgerbräu"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Bürgerstubengulasch",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Dunkles Lager (Münchner Dunkel)",
+      "Bock (dunkel)",
+      "Festbier / Oktoberfestbier hell",
+      "Weizenbock (dunkel)",
+      "Märzen (bayrisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Bierrindsgulasch mit Malzkartoffeln und Bierknödel",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Dunkel",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)",
+      "Märzen (österreichisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Innviertler Bierfleisch vom Kalb",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Schwarzbier",
+      "Porter (klassisch)",
+      "Irish Dry Stout",
+      "Bock (dunkel)",
+      "Märzen (bayrisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Kalbsbraten im eigenen Saft",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Bock (dunkel)",
+      "Doppelbock (hell)",
+      "Belgian Dubbel",
+      "Märzen (bayrisch)",
+      "Festbier / Oktoberfestbier hell"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Rosa gebratener Kalbstafelspitz in dunkler Biersauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Bock (dunkel)",
+      "Maibock / Heller Bock",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Dubbel",
+      "Abtei Dubbel"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Zartweich gekochter Kalbstafelspitz mit Semmelkren und Schnittlauchsauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Dunkel",
+      "Bock (dunkel)",
+      "Doppelbock (dunkel/Salvator-Typ)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Kalbstafelspitz mit Spargelragout",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Export (Dortmunder)",
+      "Festbier / Oktoberfestbier hell",
+      "Bock (hell)",
+      "English Bitter",
+      "Hefeweizen (bayrisch mainstream)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Rosa gebratener Kalbstafelspitz in Biersafterl auf Biernudeln mit Gemüse",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (hell)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)",
+      "Wiener Dunkel"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Kalbsroulade in Weißbiersauce mit Biernudeln und Gemüse",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)",
+      "Weizenbock (dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Kalbsbrust mit bierigem Semmelteig gefüllt",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Festbier / Oktoberfestbier hell",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)",
+      "Doppelbock (dunkel/Salvator-Typ)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Kalbsschale in Bier geschmort",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (bayrisch)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)",
+      "Wiener Dunkel"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Kalbsnuss in Bockbiersauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Dubbel",
+      "English Brown Ale",
+      "Old Ale",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Dunkles Lager (Münchner Dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Esterhazy-Rostbraten mit Biernudeln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Schwarzbier",
+      "Imperial Stout / Russian Imperial Stout",
+      "Strong Porter",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Roggenbier"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Zwiebel-Bierrostbraten mit Malznudeln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Schwarzbier",
+      "Dunkles Lager (Münchner Dunkel)",
+      "Wiener Dunkel",
+      "Bock (dunkel)",
+      "Robust Porter (English)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Kurzgebratener Bierrostbraten mit Kartoffelchips",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Schwarzbier",
+      "Weizenbock (dunkel)",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Bock (dunkel)",
+      "Weizendoppelbock (dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Rinderrückenstreifen Znaimer Art in Dunkelbiersauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Dunkles Lager (Münchner Dunkel)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Rinderrückensteak Saltimbocca in Schwarzbiersafterl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Imperial Stout / Russian Imperial Stout",
+      "American Amber Ale",
+      "ESB (Extra Special Bitter)",
+      "American Stout",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Rinderrouladen mit Biernudeln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Schwarzbier",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Dubbel",
+      "American Amber Ale",
+      "Belgian Quadrupel / Dark Strong Ale"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Geschmorte Rinderbackerl mit Apfel-Erdapfelgratin",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Dunkles Lager (Münchner Dunkel)",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Dubbel",
+      "American Amber Ale",
+      "Trappist Quadrupel"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Rinderbraten in Rotweinsauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Flanders Red Ale",
+      "Oud Bruin (Flanders Brown)",
+      "Belgian Dubbel",
+      "American Amber Ale",
+      "Wild Ale (American)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Rinderbraten in Sauerbier und Geuze",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Dunkles Lager (Münchner Dunkel)",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Dubbel",
+      "American Amber Ale",
+      "Belgian Quadrupel / Dark Strong Ale"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Rinderbraten in Sauerbier mit Serviettenknödel",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Lambic (jung)",
+      "Oud Bruin (Flanders Brown)",
+      "Belgian Dubbel",
+      "American Amber Ale",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Gedünstetes Rindsschnitzel in Schwarzbiersauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Schwarzbier",
+      "Baltic Porter",
+      "Oyster Stout",
+      "Märzen (bayrisch)",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Riedburger mit Bier-BBQ-Sauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "American IPA",
+      "West Coast IPA",
+      "New England IPA / Hazy IPA",
+      "Double / Imperial IPA",
+      "American Blonde Ale"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Wagyu-Steak mit Weißbierrahmfisolen und Rösti",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Imperial Stout / Russian Imperial Stout",
+      "American Amber Ale",
+      "ESB (Extra Special Bitter)",
+      "American Stout",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Mastochsenfleisch mit Spargelragout",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "Lambic (jung)",
+      "Oud Bruin (Flanders Brown)",
+      "Hefeweizen (bayrisch mainstream)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Rind und Kalb",
+    "gericht": "Mastochsenfleisch in Krenkruste",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Bock (dunkel)",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Weizenbock (dunkel)",
+      "Weizendoppelbock (dunkel)",
+      "Wiener Dunkel"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Innviertler Schweinsbratl in der Rein",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)",
+      "Zwickelbier (österreichisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Innviertler Bierkrustenbraten",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (bayrisch)",
+      "Doppelbock (hell)",
+      "Märzen (bayrisch)",
+      "Bock (dunkel)",
+      "Fränkisches Kellerbier"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Innviertler Bierschnitzel",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (böhmisch)",
+      "Wiener Lager (filtriert)",
+      "Zwickelbier (österreichisch)",
+      "Märzen (österreichisch)",
+      "Export (Dortmunder)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Wiener Schnitzel vom Innviertler Edelschwein",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Lager (filtriert)",
+      "Wiener Zwickl (unfiltriert)",
+      "Märzen (österreichisch)",
+      "Pilsner (böhmisch)",
+      "Landbier"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Bauern-Cordon-bleu mit Speck, Käse und Champignons",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)",
+      "Rauchweizen"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Schweineschnitzel mit Steinpilz-, Speck- und Zwiebelfüllung",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Rauchbier (Bamberg)",
+      "Grätzer / Grodziskie",
+      "Kräuterbier (Gruit)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "rosa gebratenes Schweinefilet in Senf-Malz-Speckkruste",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Imperial Stout / Russian Imperial Stout",
+      "American Amber Ale",
+      "ESB (Extra Special Bitter)",
+      "American Stout",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "roas gebratenes Schweinefilet auf Steinpilzrahmsauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Imperial Stout / Russian Imperial Stout",
+      "American Amber Ale",
+      "ESB (Extra Special Bitter)",
+      "American Stout",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Schweinefilet auf Pfefferrahmsauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Imperial Stout / Russian Imperial Stout",
+      "American Amber Ale",
+      "ESB (Extra Special Bitter)",
+      "American Stout",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Schweinefilet Colbert im Kohlmantel",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Imperial Stout / Russian Imperial Stout",
+      "American Amber Ale",
+      "ESB (Extra Special Bitter)",
+      "American Stout",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Schweinemedaillons mit Surspeck und Spargel",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "Kellerpils (deutsch)",
+      "Session IPA",
+      "Hefeweizen (bayrisch mainstream)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Schweinemedaillons mit Paprika-Tomaten-Gemüse und Reis",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Bardiertes Schweinefilet in Dunkelbiersauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Imperial Stout / Russian Imperial Stout",
+      "American Amber Ale",
+      "ESB (Extra Special Bitter)",
+      "American Stout",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Gefüllter Schweinebauch mit Malzbiersauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Schweinsroulade mit Spargelfüllung",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "Kellerpils (deutsch)",
+      "Session IPA",
+      "Hefeweizen (bayrisch mainstream)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Schweinsrouladen in Dunkelbiersauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Grillkotelett mit Gemüse, Ofenkartoffel und Sauerrahmdip",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Schwein",
+    "gericht": "Elsässer Schnitzel in Dunkelbiersauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Pilsner (deutsch)",
+      "Wiener Lager (filtriert)",
+      "Kellerpils (deutsch)",
+      "Märzen (österreichisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Hirschkalbsbraten in Rotweinsauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel",
+      "Baltic Porter",
+      "Belgian Dubbel",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Hirschbraten in Sauerbier",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel",
+      "Baltic Porter",
+      "Belgian Dubbel",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Hirschhuftsteak mit Steinpilzrahmsauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel",
+      "Baltic Porter",
+      "Belgian Dubbel",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Rehragout mit Bierserviettenknödel",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel",
+      "Baltic Porter",
+      "Belgian Dubbel",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Rehbraten mit Kroketten und Blaukraut",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel",
+      "Baltic Porter",
+      "Belgian Dubbel",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Gamsbraten mit Semmelknödel und Rotkraut",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel",
+      "Baltic Porter",
+      "Belgian Dubbel",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Wildschweinsteak in Dunkelbiersauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel",
+      "Baltic Porter",
+      "Belgian Dubbel",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Wildschwein in Sauerbier mit Kroketten",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel",
+      "Baltic Porter",
+      "Belgian Dubbel",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Hasenkeule in Wurzelrahmsauce von dunklem Bier",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Dubbel",
+      "Bière de Garde",
+      "Trappist Tripel",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Trappist Quadrupel"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Gebratene Ente mit Orangen-Honig-Safterl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Dubbel",
+      "Trappist Dubbel",
+      "Bière de Garde",
+      "Old Ale",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "BIO-Ente mit Orangen-Bier-Thymian-Safterl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Dubbel",
+      "Trappist Dubbel",
+      "Bière de Garde",
+      "Old Ale",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Barbarieentenbrust auf Steinpilzrisotto",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Dubbel",
+      "Trappist Dubbel",
+      "Bière de Garde",
+      "Old Ale",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Gansl mit Honigkruste und Orangen-Biersafterl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Dubbel",
+      "Trappist Dubbel",
+      "Bière de Garde",
+      "Old Ale",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Gansl mit Bier-Serviettenknödel und Bierkrautsalat",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Dubbel",
+      "Trappist Dubbel",
+      "Bière de Garde",
+      "Old Ale",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Gansl mit Orangen-Rosmarin-Safterl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Dubbel",
+      "Trappist Dubbel",
+      "Bière de Garde",
+      "Old Ale",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Weihnachtspute mit Brioche-Serviettenknödel",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)",
+      "Zwickelbier (österreichisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Weihnachts-Cordon-bleu von der Pute",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)",
+      "Zwickelbier (österreichisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Hühnerbrust mit Basilikum und Schafskäse",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Zwickl (unfiltriert)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)",
+      "Zwickelbier (österreichisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Hühnercurry mit Früchten, Pilzen und Malzreis",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "New England IPA / Hazy IPA",
+      "West Coast IPA",
+      "English IPA",
+      "English IPA",
+      "Cold IPA"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Lammrücken in Starkbiersafterl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Irish Red Ale",
+      "Belgian Dubbel",
+      "Trappist Tripel",
+      "ESB (Extra Special Bitter)",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Hauptspeisen",
+    "unterkategorie": "Wild, Geflügel und Lamm",
+    "gericht": "Lammkarree in Bier-Knoblauch-Thymian-Safterl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Irish Red Ale",
+      "Belgian Dubbel",
+      "Trappist Tripel",
+      "ESB (Extra Special Bitter)",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Hausgemachtes Bieramisu",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout",
+      "Barleywine (English)",
+      "Pastry Stout",
+      "Samichlaus - Schlossbrauerei Eggenberg"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Lebkuchen-Tiramisu",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Coffee Stout",
+      "Imperial Stout / Russian Imperial Stout",
+      "Barrel-Aged Stout",
+      "Sweet Stout / Milk Stout",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Besoffener Trappist",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout",
+      "Bière de Garde",
+      "Trappist Tripel"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Mohr im Hemd mit Biereis",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout",
+      "Coffee Stout",
+      "Pastry Stout"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Palatschinke mit Marmelade, Preiselbeeren oder Biergelee",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Triple IPA",
+      "Belgian IPA",
+      "Abtei Tripel"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Bierpalatschinke mit Biergelee",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizendoppelbock (hell)",
+      "Trappist Tripel",
+      "Imperial Stout / Russian Imperial Stout",
+      "Barrel-Aged Stout",
+      "Pastry Stout"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Bierpalatschinke mit Malzbiereis",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Barleywine (English)",
+      "Barrel-Aged Stout",
+      "Chili-Bier"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Eispalatschinke",
+    "verfuegbarkeit": "Speisekarte – immer erhältlich",
+    "quelle": "Jahreskarte 2025 – Herbst",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout",
+      "Pastry Stout",
+      "Chili-Bier"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Apfelscheiben im Bierteig",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Tripel",
+      "Weizenbock (hell)",
+      "Dunkles Weizen",
+      "Barleywine (English)",
+      "American Barleywine"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Apfelstrudel auf Bierchaudeau",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Tripel",
+      "Weizenbock (hell)",
+      "Dunkles Weizen",
+      "Lambic (jung)",
+      "Sour IPA / Fruited Sour IPA"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Topfenstrudel auf Bierchaudeau",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Hefeweizen (bayrisch mainstream)",
+      "Belgian Blonde",
+      "Kristallweizen",
+      "Helles Weizen",
+      "Sour IPA / Fruited Sour IPA"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Topfenstrudel mit Erdbeeren",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Hefeweizen (bayrisch mainstream)",
+      "Belgian Blonde",
+      "Kristallweizen",
+      "Helles Weizen",
+      "Fruit Sour Ale"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Bierkaiserschmarren",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Doppelbock (hell)",
+      "Hefeweizen (bayrisch mainstream)",
+      "Barrel-Aged Stout",
+      "Barleywine (English)"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Lebkuchen-Kaiserschmarren",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Doppelbock (hell)",
+      "Hefeweizen (bayrisch mainstream)",
+      "Pastry Stout",
+      "Chocolate Stout"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Nuss-Kaiserschmarren",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Doppelbock (hell)",
+      "Hefeweizen (bayrisch mainstream)",
+      "Belgian Dubbel",
+      "Barleywine (English)"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Bierschmarrn mit Röster",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout",
+      "Sweet Stout / Milk Stout",
+      "Barleywine (English)"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Sauerrahmschmarren mit Marillenröster",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Zwetschgen-/Marillenbier",
+      "Hefeweizen (bayrisch mainstream)",
+      "Belgian Tripel",
+      "Berliner Weisse (Frucht-Version)"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Apfel-Bier-Datschi mit Orangen-Spargel-Salat",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "Kellerpils (deutsch)",
+      "Session IPA",
+      "Hefeweizen (bayrisch mainstream)"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Heidelbeermäuse mit Stout-Schoko-Sauce",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizendoppelbock (dunkel)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Imperial Stout / Russian Imperial Stout",
+      "Pastry Stout",
+      "Barrel-Aged Stout"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Topfennockerl mit Malzbröseln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Hefeweizen (bayrisch mainstream)",
+      "Belgian Blonde",
+      "Barleywine (English)",
+      "Fruit Sour Ale",
+      "Sour IPA / Fruited Sour IPA"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Topfen-Malzbier-Nockerl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Berliner Weisse (klassisch)",
+      "Berliner Weisse (Frucht-Version)",
+      "Black IPA / Cascadian Dark",
+      "Milkshake IPA",
+      "Sour IPA / Fruited Sour IPA"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Malzbierpraline mit Früchten",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout",
+      "Pastry Stout",
+      "Chocolate Stout"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Bierschokolademousse",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Imperial Stout / Russian Imperial Stout",
+      "Barrel-Aged Stout",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Strong Porter",
+      "Chocolate Stout"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Bier-Schokomousse mit Sauerkirschen",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Porter (klassisch)",
+      "Brown Porter (English)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Pastry Stout",
+      "Chocolate Stout"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Schokoladenkuchen mit Malzbiereis",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Robust Porter (English)",
+      "American Porter",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Baltic Porter",
+      "Chocolate Stout"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Schwarzmann-Schokokuchen mit Kirschen",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Kriek (Kirsch-Lambic)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Oud Bruin (Flanders Brown)",
+      "Flanders Red Ale",
+      "Berliner Weisse (Frucht-Version)"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Vanilleeis mit dunklem Bier",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout",
+      "Sour IPA / Fruited Sour IPA",
+      "Milkshake IPA"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Vanilleeis mit Kürbiskernen, Kürbisbier und Kernöl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "Chocolate Stout",
+      "Pastry Stout",
+      "Hefeweizen (bayrisch mainstream)",
+      "Rieder Kürbiskernbier"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Fruchteis auf Weißbier-Fruchtsalat",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Berliner Weisse (Frucht-Version)",
+      "Sour IPA / Fruited Sour IPA",
+      "Fruit Sour Ale",
+      "Weizenbock (hell)"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Zimtparfait mit Beerenragout",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Barrel-Aged Stout",
+      "Barleywine (English)",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Lebkuchenparfait",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Minzparfait mit Erdbeeren",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Belgian IPA"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Moccaparfait",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Coffee Stout",
+      "American Stout",
+      "Oatmeal Stout"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Bierparfait",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Pofese mit Zwetschken-Rum-Marmelade",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Barleywine (English)",
+      "Eisbock",
+      "Weizeneisbock",
+      "Barrel-Aged Stout",
+      "American Barleywine"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Süßer Burger mit Malzbiercreme und Banane",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Robust Porter (English)",
+      "Wiener Lager (filtriert)",
+      "Barleywine (English)"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Erdbeerkuchen im Bierglas",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout",
+      "Coffee Stout",
+      "Pastry Stout"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Marillenknödel mit Malzbröseln",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Zwetschgen-/Marillenbier",
+      "Hefeweizen (bayrisch mainstream)",
+      "Belgian Tripel",
+      "Fruit Sour Ale"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Bauernkrapfen mit Biergelee",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout",
+      "Brown Porter (English)",
+      "Weizeneisbock",
+      "Samichlaus - Schlossbrauerei Eggenberg"
+    ]
+  },
+  {
+    "kategorie": "Desserts",
+    "unterkategorie": "",
+    "gericht": "Brandteigkrapferl",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Gemischter Käseteller mit Bierchutney",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout",
+      "Samichlaus - Schlossbrauerei Eggenberg"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Trappistenkäse aus Chimay",
+    "verfuegbarkeit": "Menükarte – speziell / saisonal",
+    "quelle": "Historische Menükarten / Biermenüs",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Weizenbock (hell)",
+      "Belgian Tripel",
+      "Imperial Stout / Russian Imperial Stout",
+      "Trappist Tripel",
+      "Bière de Garde"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Bergkäse 12 Monate gereift",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (bayrisch)",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Altbier (Düsseldorfer)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Bergkäse 6 Monate gereift",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Lager (filtriert)",
+      "Pilsner (böhmisch)",
+      "Altbier (Düsseldorfer)",
+      "Kellerpils (deutsch)"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Emmentaler",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Helles (Münchner)",
+      "Pilsner (böhmisch)",
+      "Wiener Lager (filtriert)",
+      "Hefeweizen (bayrisch mainstream)"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Weinkäse",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Tripel",
+      "Saison (klassisch/Dupont-Typ)",
+      "Trappist Blonde",
+      "Witbier",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Tilsitter",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Lager (filtriert)",
+      "Altbier (Düsseldorfer)",
+      "Pilsner (deutsch)",
+      "Kellerpils (deutsch)"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Trappistenkäse Orval",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Trappist Blonde",
+      "Saison (klassisch/Dupont-Typ)",
+      "Belgian Blonde",
+      "Witbier",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Pecorino",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Saison (klassisch/Dupont-Typ)",
+      "Belgian Blonde",
+      "Witbier",
+      "Pilsner (böhmisch)",
+      "Kellerpils (deutsch)"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Pecorino al Tartufo",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Tripel",
+      "Trappist Dubbel",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Imperial Stout / Russian Imperial Stout",
+      "Old Ale"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Gereifter Gouda (Extra Qualität)",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Altbier (Düsseldorfer)",
+      "Wiener Lager (filtriert)",
+      "Bock (dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Gruyère",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (bayrisch)",
+      "Wiener Lager (filtriert)",
+      "Trappist Dubbel",
+      "Altbier (Düsseldorfer)",
+      "Dunkles Lager (Münchner Dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Manchego Reserve 12 (Schaf, Trüffel & Honig)",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Tripel",
+      "Trappist Quadrupel",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Barleywine (English)",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Geräucherter Gouda",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Rauchbier (Bamberg)",
+      "Märzen (österreichisch)",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Schwarzbier",
+      "Porter (klassisch)"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Pecorino Moliterno al Tartufo (Trüffel)",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Tripel",
+      "Trappist Dubbel",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Imperial Stout / Russian Imperial Stout",
+      "Old Ale"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Abtei-Käse Orval",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Trappist Blonde",
+      "Saison (klassisch/Dupont-Typ)",
+      "Belgian Blonde",
+      "Witbier",
+      "Flanders Red Ale"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Noten-Melange Käse",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Märzen (österreichisch)",
+      "Wiener Lager (filtriert)",
+      "Trappist Dubbel",
+      "Altbier (Düsseldorfer)",
+      "Dunkles Lager (Münchner Dunkel)"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Bockshornklee-Käse",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Witbier",
+      "Saison (klassisch/Dupont-Typ)",
+      "Belgian Blonde",
+      "Hefeweizen (bayrisch mainstream)",
+      "Helles Weizen"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Trüffelkäse",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Belgian Tripel",
+      "Trappist Dubbel",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Imperial Stout / Russian Imperial Stout",
+      "Old Ale"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Bauernstolz Maple-Whiskey-Käse",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Barleywine (English)",
+      "Imperial Stout / Russian Imperial Stout",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Strong Porter"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Abtei-Käse St. Bernardus",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Trappist Dubbel",
+      "Belgian Dubbel",
+      "Trappist Quadrupel",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Old Ale"
+    ]
+  },
+  {
+    "kategorie": "Käse",
+    "unterkategorie": "",
+    "gericht": "Chimay Grand Cru",
+    "verfuegbarkeit": "",
+    "quelle": "",
+    "saison": "",
+    "anmerkung": "",
+    "bierstile": [
+      "Trappist Quadrupel",
+      "Belgian Quadrupel / Dark Strong Ale",
+      "Doppelbock (dunkel/Salvator-Typ)",
+      "Barleywine (English)",
+      "Imperial Stout / Russian Imperial Stout"
+    ]
+  }
+]
