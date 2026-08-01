@@ -47,6 +47,8 @@
   header.masthead {
     border-bottom: 1px solid var(--rule);
     padding-bottom: 18px; margin-bottom: 26px;
+    position: sticky; top: 0; z-index: 100;
+    background: var(--paper-2);
   }
   .masthead-top {
     display: flex; align-items: center; gap: 20px;
@@ -903,9 +905,7 @@ function renderCatalog() {
             <span class="beer-catno">${esc(catNo(b, idx))}</span>
             <span class="beer-name">${esc(b.name)}</span>
             ${b.vintage ? `<span class="beer-vintage">${b.vintage}</span>` : ''}
-            ${catBadge(b.category)}
-            ${statusBadge(b.status)}
-            ${b.publish ? '<span class="badge public">öffentlich</span>' : ''}
+
           </div>
           <div class="beer-sub">${esc(b.brewery || '—')}${b.style ? ' · ' + esc(b.style) : ''}${b.gebinde ? ' · ' + esc(b.gebinde) : ''}</div>
           ${pairings.length ? `<div class="beer-tags">${pairings.slice(0,4).map(p => `<span class="tag">${esc(p)}</span>`).join('')}${pairings.length>4?`<span class="tag-count">+${pairings.length-4}</span>`:''}</div>` : ''}
@@ -1048,9 +1048,7 @@ function renderBeerRow(b) {
         <span class="beer-catno">${esc(catNo(b, idx))}</span>
         <span class="beer-name">${esc(b.name)}</span>
         ${b.vintage ? `<span class="beer-vintage">${b.vintage}</span>` : ''}
-        ${catBadge(b.category)}
-        ${statusBadge(b.status)}
-        ${b.publish ? '<span class="badge public">öffentlich</span>' : ''}
+
       </div>
       <div class="beer-sub">${esc(b.brewery || '—')}${b.style ? ' · ' + esc(b.style) : ''}${b.gebinde ? ' · ' + esc(b.gebinde) : ''}</div>
       ${pairings.length ? `<div class="beer-tags">${pairings.slice(0,4).map(p => `<span class="tag">${esc(p)}</span>`).join('')}${pairings.length>4?`<span class="tag-count">+${pairings.length-4}</span>`:''}</div>` : ''}
@@ -1271,10 +1269,7 @@ function renderDetail() {
   <div class="detail">
     <div class="detail-meta">
       <span>${esc(catNo(b, idx))}</span>
-      ${locBadge(b.location)}
-      ${b.category && b.category !== 'Flasche' ? catBadge(b.category) : ''}
-      ${b.status ? statusBadge(b.status) || `<span class="badge status-ok">${esc(b.status)}</span>` : ''}
-      ${b.publish ? '<span class="badge public">öffentlich</span>' : ''}
+
     </div>
     <div class="detail-title">${esc(b.name)} ${b.vintage ? `<span class="year">${b.vintage}</span>` : ''}</div>
     <div class="detail-brewery">${esc(b.brewery || '—')}${b.style ? ' · ' + esc(b.style) : ''}</div>
@@ -1301,7 +1296,7 @@ function renderDetail() {
       </div>`).join('')}
     </div>` : ''}
 
-    ${pairings.length ? `<div class="section-title">Foodpairing</div><div>${pairings.map(p => `<span class="pairing-chip">${esc(p)}</span>`).join('')}</div>` : `<div style="padding:14px;background:var(--paper);border:1px dashed var(--rule);border-radius:var(--radius);color:var(--ink-mute);font-size:13px;margin-top:16px">Noch keine Foodpairings gepflegt. <button class="btn btn-ghost" data-action="edit" data-id="${b.id}" style="padding:3px 10px;font-size:12px">Jetzt ergänzen</button></div>`}
+    ${pairings.length ? `<div class="section-title">Foodpairing</div><div>${pairings.map(p => `<span class="pairing-chip">${esc(p)}</span>`).join('')}</div>` : ''}
 
     ${b.notes ? `<div class="section-title">Bemerkung</div><div class="notes">${esc(b.notes)}</div>` : ''}
 
