@@ -911,9 +911,8 @@ function renderCatalog() {
           ${pairings.length ? `<div class="beer-tags">${pairings.slice(0,4).map(p => `<span class="tag">${esc(p)}</span>`).join('')}${pairings.length>4?`<span class="tag-count">+${pairings.length-4}</span>`:''}</div>` : ''}
         </div>
         <div class="beer-right">
-          <div class="pos">${esc(b.position || '—')}</div>
-          ${b.subPosition ? `<div class="sub">${esc(b.subPosition)}</div>` : ''}
-          <div>${b.quantity || 0}× ${b.value ? '· ' + eur(b.value) : ''}</div>
+          <div class="pos">${esc(b.position || '—')}${b.lagerplaetze && b.lagerplaetze.length > 1 ? ` +${b.lagerplaetze.length - 1}` : ''}</div>
+          <div>${b.quantity || 0}×</div>
         </div>
       </div>`;
     });
@@ -1284,20 +1283,23 @@ function renderDetail() {
       <a class="btn btn-untappd" href="${esc(utd.url)}" target="_blank" rel="noopener">
         ${utd.direct ? 'Auf Untappd öffnen' : 'Auf Untappd suchen'} ↗
       </a>
-      ${!utd.direct ? '<span class="hint" style="margin-left:8px">automatischer Suchlink – für Favoriten den direkten Link im Bearbeiten-Dialog hinterlegen</span>' : ''}
+      ${!utd.direct ? '' : ''}
     </div>` : ''}
 
-    ${b.photo && /^https?:/.test(b.photo) ? `<img src="${esc(b.photo)}" alt="${esc(b.name)}" class="photo-thumb" onerror="this.style.display='none'">` : b.photo ? `<div class="photo-ref">📷 ${esc(b.photo)}</div>` : ''}
+    ${b.photo && /^https?:/.test(b.photo) ? `<img src="${esc(b.photo)}" alt="${esc(b.name)}" class="photo-thumb" onerror="this.style.display='none'">` : ''}
 
     <div class="detail-facts">
-      <div><div class="fact-label">Position</div><div class="fact-value mono">${esc(b.position || '—')}</div></div>
-      ${b.subPosition ? `<div><div class="fact-label">Ebene / Bereich</div><div class="fact-value" style="font-size:14px">${esc(b.subPosition)}</div></div>` : ''}
       ${b.gebinde ? `<div><div class="fact-label">Gebinde</div><div class="fact-value" style="font-size:14px">${esc(b.gebinde)}</div></div>` : ''}
-      ${b.mhdJahrgang ? `<div><div class="fact-label">MHD / Jahrgang</div><div class="fact-value" style="font-size:14px">${esc(b.mhdJahrgang)}</div></div>` : ''}
-      <div><div class="fact-label">Anzahl</div><div class="fact-value">${b.quantity || 0}</div></div>
-      ${b.value ? `<div><div class="fact-label">Wert / Einheit</div><div class="fact-value">${eur(b.value)}</div></div>` : ''}
-      ${b.value ? `<div><div class="fact-label">Gesamtwert</div><div class="fact-value">${eur((b.quantity||0)*(b.value||0))}</div></div>` : ''}
+      <div><div class="fact-label">Anzahl</div><div class="fact-value">${b.quantity || 0}×</div></div>
     </div>
+    ${b.lagerplaetze && b.lagerplaetze.length ? `
+    <div class="section-title">Lagerplätze</div>
+    <div style="font-family:var(--font-mono);font-size:13px">
+      ${(b.lagerplaetze||[]).map(l => `<div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid var(--rule)">
+        <span>${esc(l.position)}${l.reihe ? ' · Reihe ' + esc(l.reihe) : ''}</span>
+        <span style="color:var(--ink-mute)">${l.bestand}×</span>
+      </div>`).join('')}
+    </div>` : ''}
 
     ${pairings.length ? `<div class="section-title">Foodpairing</div><div>${pairings.map(p => `<span class="pairing-chip">${esc(p)}</span>`).join('')}</div>` : `<div style="padding:14px;background:var(--paper);border:1px dashed var(--rule);border-radius:var(--radius);color:var(--ink-mute);font-size:13px;margin-top:16px">Noch keine Foodpairings gepflegt. <button class="btn btn-ghost" data-action="edit" data-id="${b.id}" style="padding:3px 10px;font-size:12px">Jetzt ergänzen</button></div>`}
 
