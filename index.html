@@ -740,18 +740,13 @@ function findSimilarBeers(nameStr, breweryStr, excludeId) {
 // ==== Storage ====
 async function loadState() {
   try {
-    const res = await fetch('/api/beers');
+    const res = await fetch('bierkeller_gaeste.json');
     if (!res.ok) throw new Error('HTTP ' + res.status);
-    state.beers = await res.json();
+    const data = await res.json();
+    state.beers = Array.isArray(data) ? data : (data.biere || []);
   } catch (e) {
-    console.error('Serverdaten laden fehlgeschlagen:', e);
-    toast('Server nicht erreichbar - offline?');
-  }
-  try {
-    const res2 = await fetch('/api/gerichte');
-    if (res2.ok) state.gerichte = await res2.json();
-  } catch (e) {
-    console.warn('Gerichte laden fehlgeschlagen:', e);
+    console.error('JSON laden fehlgeschlagen:', e);
+    toast('Bierdaten konnten nicht geladen werden.');
   }
 }
 async function persist() {
