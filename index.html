@@ -586,7 +586,7 @@
       <button class="tab" data-tab="regale">Regale</button>
       <button class="tab" data-tab="pairing">Foodpairing</button>
       <button class="tab" data-tab="stats">Statistik</button>
-      <button class="tab" data-tab="public">Veröffentlichung</button>
+
     </nav>
   </header>
   <main id="view"></main>
@@ -636,7 +636,7 @@ const LEGACY_STORAGE_KEY = 'bierarchiv_v1';
 let state = {
   beers: [],
   view: 'catalog',
-  filters: { search: '', location: '', style: '', status: '', category: '' },
+  filters: { search: '', stilStandard: '', volumen: '', land: '' },
   editingId: null,
   detailId: null,
   pairing: { food: '', beer: '' },
@@ -748,6 +748,12 @@ async function loadState() {
     console.error('JSON laden fehlgeschlagen:', e);
     toast('Bierdaten konnten nicht geladen werden.');
   }
+  try {
+    const res2 = await fetch('gerichte.json');
+    if (res2.ok) state.gerichte = await res2.json();
+  } catch (e) {
+    console.warn('Gerichte laden fehlgeschlagen:', e);
+  }
 }
 async function persist() {
   try {
@@ -816,17 +822,17 @@ function render() {
 }
 
 function renderCatalog() {
-  const styles = [...new Set(state.beers.map(b => b.style).filter(Boolean))].sort();
-  const statuses = [...new Set(state.beers.map(b => b.status).filter(Boolean))].sort();
-  const cats = [...new Set(state.beers.map(b => b.category).filter(Boolean))].sort();
-  const filtered = state.beers.filter(b => {
-    if (state.filters.location && b.location !== state.filters.location) return false;
-    if (state.filters.style && b.style !== state.filters.style) return false;
-    if (state.filters.status && b.status !== state.filters.status) return false;
-    if (state.filters.category && b.category !== state.filters.category) return false;
+  const bk = state.beers.filter(b => b.location === 'Bierkeller' && (Number(b.quantity)||0) > 0);
+  const stile = [...new Set(bk.map(b => b.stilStandard).filter(Boolean))].sort();
+  const volumina = [...new Set(bk.map(b => b.volumen_ml || b.volumen).filter(Boolean))].sort((a,b) => Number(a)-Number(b));
+  const laender = [...new Set(bk.map(b => b.land || b.country).filter(Boolean))].sort();
+  const filtered = bk.filter(b => {
+    if (state.filters.stilStandard && b.stilStandard !== state.filters.stilStandard) return false;
+    if (state.filters.volumen && String(b.volumen_ml || b.volumen) !== state.filters.volumen) return false;
+    if (state.filters.land && (b.land || b.country) !== state.filters.land) return false;
     if (state.filters.search) {
       const q = state.filters.search.toLowerCase();
-      const hay = [b.name, b.brewery, b.style, b.vintage, b.mhdJahrgang, b.pairings, b.notes, b.position, b.subPosition, b.platzId, b.gebinde].join(' ').toLowerCase();
+      const hay = [b.name, b.brewery, b.style, b.stilStandard, b.land, b.country, b.vintage, b.pairings, b.notes, b.position, b.gebinde].join(' ').toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -847,32 +853,24 @@ function renderCatalog() {
   h += `<div class="toolbar">
     <input type="search" id="searchInput" placeholder="Suchen (Name, Brauerei, Position, ID…)" value="${esc(state.filters.search)}">
     <div class="spacer"></div>
-    <button class="btn btn-ghost" data-action="import"><span>⬆</span> JSON importieren</button>
-    ${state.beers.length ? '<button class="btn btn-ghost" data-action="export"><span>⬇</span> Export</button>' : ''}
-    <button class="btn btn-ghost" data-action="importGerichte" title="Gerichte-Datenbank (gerichte.json) importieren"><span>🍽</span> Gerichte</button>
-    <button class="btn btn-primary" data-action="new"><span>+</span> Neu</button>
+
   </div>`;
 
   if (state.beers.length) {
     h += `<div class="filters">
-      <select id="filterLocation">
-        <option value="">Alle Standorte</option>
-        <option value="Bierkeller"${state.filters.location==='Bierkeller'?' selected':''}>Bierkeller</option>
-        <option value="Bierlagerkeller"${state.filters.location==='Bierlagerkeller'?' selected':''}>Bierlagerkeller</option>
+      <select id="filterStil">
+        <option value="">Alle Bierstile</option>
+        ${stile.map(s => `<option${state.filters.stilStandard===s?' selected':''}>${esc(s)}</option>`).join('')}
       </select>
-      <select id="filterStyle">
-        <option value="">Alle Stile</option>
-        ${styles.map(s => `<option${state.filters.style===s?' selected':''}>${esc(s)}</option>`).join('')}
+      <select id="filterVolumen">
+        <option value="">Alle Größen</option>
+        ${volumina.map(v => `<option value="${v}"${state.filters.volumen===String(v)?' selected':''}>${v} ml</option>`).join('')}
       </select>
-      ${cats.length ? `<select id="filterCategory">
-        <option value="">Alle Kategorien</option>
-        ${cats.map(c => `<option${state.filters.category===c?' selected':''}>${esc(c)}</option>`).join('')}
-      </select>` : ''}
-      ${statuses.length ? `<select id="filterStatus">
-        <option value="">Alle Status</option>
-        ${statuses.map(s => `<option${state.filters.status===s?' selected':''}>${esc(s)}</option>`).join('')}
-      </select>` : ''}
-      <div class="count">${filtered.length} von ${state.beers.length}</div>
+      <select id="filterLand">
+        <option value="">Alle Länder</option>
+        ${laender.map(l => `<option${state.filters.land===l?' selected':''}>${esc(l)}</option>`).join('')}
+      </select>
+      <div class="count">${filtered.length} von ${bk.length}</div>
     </div>`;
   }
 
@@ -1149,11 +1147,9 @@ function renderRegale() {
 
   // Raum-Umschalter
   h += `<div class="room-selector" role="tablist">
-    ${['Bierkeller', 'Bierlagerkeller'].map(r => `
-      <button class="room-btn${currentRoom===r?' active':''}" data-room="${r}" role="tab" aria-selected="${currentRoom===r}">
-        ${r}<span class="badge">${roomCounts[r]}</span>
-      </button>
-    `).join('')}
+    <button class="room-btn active" data-room="Bierkeller" role="tab" aria-selected="true">
+      Bierkeller<span class="badge">${roomCounts['Bierkeller']}</span>
+    </button>
   </div>`;
 
   h += `<div class="location-head">
@@ -1271,8 +1267,7 @@ function renderDetail() {
   return `<div class="detail-actions">
     <button class="btn btn-ghost" data-action="back">← Zurück</button>
     <div class="spacer"></div>
-    <button class="btn btn-ghost" data-action="edit" data-id="${b.id}">Bearbeiten</button>
-    <button class="btn btn-danger" data-action="delete" data-id="${b.id}">Löschen</button>
+
   </div>
   <div class="detail">
     <div class="detail-meta">
@@ -1358,7 +1353,7 @@ function renderPairing() {
   let h = '';
 
   if (keineGerichte) {
-    h += `<div class="hint-banner"><div class="icon">ℹ</div><div class="body">Gerichte-Datenbank noch nicht geladen. Bitte <strong>gerichte.json</strong> über <em>Einstellungen → Gerichte importieren</em> hochladen.</div></div>`;
+    h += `<div class="hint-banner"><div class="icon">ℹ</div><div class="body">Gerichte-Datenbank wird geladen…</div></div>`;
   }
 
   h += `<div class="pairing-grid">
@@ -1452,27 +1447,26 @@ function renderPairing() {
 }
 
 function renderStats() {
-  const total = state.beers.reduce((s,b) => s + (Number(b.quantity)||0), 0);
-  const value = state.beers.reduce((s,b) => s + (Number(b.quantity)||0)*(Number(b.value)||0), 0);
-  const unique = state.beers.length;
-  const inK = state.beers.filter(b => b.location==='Bierkeller').reduce((s,b) => s + (Number(b.quantity)||0), 0);
-  const inL = state.beers.filter(b => b.location==='Bierlagerkeller').reduce((s,b) => s + (Number(b.quantity)||0), 0);
-  const withPair = state.beers.filter(b => parsePairings(b.pairings).length).length;
-  const withUntappd = state.beers.filter(b => b.untappdUrl && /^https?:/.test(b.untappdUrl)).length;
+  const biere = state.beers.filter(b => b.location === 'Bierkeller' && (Number(b.quantity)||0) > 0);
+  const total = biere.reduce((s,b) => s + (Number(b.quantity)||0), 0);
+  const unique = biere.length;
+  const withPair = biere.filter(b => parsePairings(b.pairings).length).length;
 
-  const styles = {}, brews = {}, statuses = {}, cats = {};
-  state.beers.forEach(b => {
-    const s = b.style || 'ohne Angabe'; styles[s] = (styles[s]||0) + (Number(b.quantity)||0);
-    if (b.brewery) brews[b.brewery] = (brews[b.brewery]||0) + (Number(b.quantity)||0);
-    const st = b.status || 'ohne'; statuses[st] = (statuses[st]||0) + 1;
-    const c = b.category || 'Flasche'; cats[c] = (cats[c]||0) + 1;
+  const styles = {}, brews = {}, lands = {}, stilStds = {};
+  biere.forEach(b => {
+    const s = b.style || 'ohne Angabe'; styles[s] = (styles[s]||0) + 1;
+    if (b.brewery) brews[b.brewery] = (brews[b.brewery]||0) + 1;
+    const l = b.land || b.country || ''; if (l) lands[l] = (lands[l]||0) + 1;
+    const sd = b.stilStandard || ''; if (sd) stilStds[sd] = (stilStds[sd]||0) + 1;
   });
-  const styleL = Object.entries(styles).sort((a,b) => b[1]-a[1]).slice(0, 15);
-  const brewL = Object.entries(brews).sort((a,b) => b[1]-a[1]).slice(0, 15);
-  const statusL = Object.entries(statuses).sort((a,b) => b[1]-a[1]);
-  const catL = Object.entries(cats).sort((a,b) => b[1]-a[1]);
+  const styleL  = Object.entries(styles).sort((a,b) => b[1]-a[1]).slice(0,15);
+  const brewL   = Object.entries(brews).sort((a,b) => b[1]-a[1]).slice(0,15);
+  const landL   = Object.entries(lands).sort((a,b) => b[1]-a[1]);
+  const stilL   = Object.entries(stilStds).sort((a,b) => b[1]-a[1]).slice(0,20);
   const maxS = Math.max(1, ...styleL.map(([,n]) => n));
   const maxB = Math.max(1, ...brewL.map(([,n]) => n));
+  const maxL = Math.max(1, ...landL.map(([,n]) => n));
+  const maxSt = Math.max(1, ...stilL.map(([,n]) => n));
 
   const card = (label, val, sub, amber) => `<div class="stat-card${amber?' amber':''}">
     <div class="stat-label">${label}</div>
@@ -1480,31 +1474,25 @@ function renderStats() {
   </div>`;
 
   let h = `<div class="stats-grid">
-    ${card('Einträge gesamt', unique)}
-    ${card('Einheiten gesamt', total)}
-    ${card('Bierkeller', inK, 'Einh.')}
-    ${card('Bierlagerkeller', inL, 'Einh.', true)}
-    ${value>0 ? card('Gesamtwert', eur(value), '', true) : ''}
+    ${card('Verschiedene Biere', unique)}
+    ${card('Flaschen gesamt', total, 'Einh.')}
     ${card('Mit Foodpairings', `${withPair}/${unique}`)}
-    ${card('Direkter Untappd-Link', `${withUntappd}/${unique}`)}
+    ${card('Bierstile', Object.keys(stilStds).length)}
+    ${card('Länder', Object.keys(lands).length)}
   </div>`;
 
-  if (catL.length) {
-    h += `<div class="breakdown-title">Nach Kategorie</div><div class="status-pills">`;
-    catL.forEach(([c,n]) => { h += `<span class="badge ${c==='Flasche'?'status-neu':c.startsWith('Karton')?'cat-karton':(c.includes('Magnum')||c.includes('Großflasche'))?'cat-magnum':c==='Spirituose'?'cat-spirit':'status-neu'}" style="font-size:12px;padding:4px 10px">${esc(c)} · ${n}</span>`; });
+  if (stilL.length) {
+    h += `<div class="breakdown-title">Nach Bierstil<span class="sub">(Top 20)</span></div><div class="breakdown">`;
+    stilL.forEach(([s,n]) => {
+      h += `<div class="breakdown-row" style="cursor:pointer" onclick="state.filters.stilStandard='${s.replace(/'/g,"\\'")}';state.view='catalog';render()"><div class="breakdown-label">${esc(s)}</div><div class="breakdown-bar"><div class="breakdown-bar-fill" style="width:${(n/maxSt*100).toFixed(0)}%"></div></div><div class="breakdown-count">${n}</div></div>`;
+    });
     h += `</div>`;
   }
 
-  if (statusL.length) {
-    h += `<div class="breakdown-title">Nach Status</div><div class="status-pills">`;
-    statusL.forEach(([s,n]) => { h += `<span class="badge ${s.startsWith('bestaetigt')?'status-ok':(s.startsWith('vorlaeufig')||s==='wahrscheinlich')?'status-vor':'status-neu'}" style="font-size:12px;padding:4px 10px">${esc(s)} · ${n}</span>`; });
-    h += `</div>`;
-  }
-
-  if (styleL.length) {
-    h += `<div class="breakdown-title">Nach Stil<span class="sub">(Top 15)</span></div><div class="breakdown">`;
-    styleL.forEach(([s,n]) => {
-      h += `<div class="breakdown-row"><div class="breakdown-label">${esc(s)}</div><div class="breakdown-bar"><div class="breakdown-bar-fill" style="width:${(n/maxS*100).toFixed(0)}%"></div></div><div class="breakdown-count">${n}</div></div>`;
+  if (landL.length) {
+    h += `<div class="breakdown-title">Nach Land</div><div class="breakdown">`;
+    landL.forEach(([s,n]) => {
+      h += `<div class="breakdown-row" style="cursor:pointer" onclick="state.filters.land='${s.replace(/'/g,"\\'")}';state.view='catalog';render()"><div class="breakdown-label">${esc(s)}</div><div class="breakdown-bar"><div class="breakdown-bar-fill amber" style="width:${(n/maxL*100).toFixed(0)}%"></div></div><div class="breakdown-count">${n}</div></div>`;
     });
     h += `</div>`;
   }
@@ -1512,7 +1500,7 @@ function renderStats() {
   if (brewL.length) {
     h += `<div class="breakdown-title">Nach Brauerei<span class="sub">(Top 15)</span></div><div class="breakdown">`;
     brewL.forEach(([s,n]) => {
-      h += `<div class="breakdown-row"><div class="breakdown-label">${esc(s)}</div><div class="breakdown-bar"><div class="breakdown-bar-fill amber" style="width:${(n/maxB*100).toFixed(0)}%"></div></div><div class="breakdown-count">${n}</div></div>`;
+      h += `<div class="breakdown-row"><div class="breakdown-label">${esc(s)}</div><div class="breakdown-bar"><div class="breakdown-bar-fill" style="width:${(n/maxB*100).toFixed(0)}%"></div></div><div class="breakdown-count">${n}</div></div>`;
     });
     h += `</div>`;
   }
@@ -1790,14 +1778,12 @@ function wire() {
 
   const s = document.getElementById('searchInput');
   if (s) s.oninput = e => { state.filters.search = e.target.value; render(); const el = document.getElementById('searchInput'); if (el) { el.focus(); el.setSelectionRange(el.value.length, el.value.length); } };
-  const fl = document.getElementById('filterLocation');
-  if (fl) fl.onchange = e => { state.filters.location = e.target.value; render(); };
-  const fs = document.getElementById('filterStyle');
-  if (fs) fs.onchange = e => { state.filters.style = e.target.value; render(); };
-  const fc = document.getElementById('filterCategory');
-  if (fc) fc.onchange = e => { state.filters.category = e.target.value; render(); };
-  const fst = document.getElementById('filterStatus');
-  if (fst) fst.onchange = e => { state.filters.status = e.target.value; render(); };
+  const fstil = document.getElementById('filterStil');
+  if (fstil) fstil.onchange = e => { state.filters.stilStandard = e.target.value; render(); };
+  const fvol = document.getElementById('filterVolumen');
+  if (fvol) fvol.onchange = e => { state.filters.volumen = e.target.value; render(); };
+  const fland = document.getElementById('filterLand');
+  if (fland) fland.onchange = e => { state.filters.land = e.target.value; render(); };
   const f = document.getElementById('foodInput');
   if (f) f.oninput = e => { state.pairing.food = e.target.value; render(); const el = document.getElementById('foodInput'); if (el) { el.focus(); el.setSelectionRange(el.value.length, el.value.length); } };
   const be = document.getElementById('beerInput');
