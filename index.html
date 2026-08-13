@@ -61,12 +61,12 @@
     height: 82px; width: auto; flex-shrink: 0;
     margin-left: auto;
     align-self: flex-start;
-    transform: rotate(-15deg);
+    transform: rotate(15deg);
     transform-origin: center;
     filter: drop-shadow(0 3px 6px rgba(0,82,56,0.18));
     transition: transform .25s ease;
   }
-  .logo-karl:hover { transform: rotate(-15deg) scale(1.04); }
+  .logo-karl:hover { transform: rotate(15deg) scale(1.04); }
   @media (max-width: 720px) {
     .logo-riedberg { height: 66px; }
     .logo-karl { height: 62px; }
@@ -641,7 +641,7 @@ let state = {
   filters: { search: '', stilStandard: '', volumen: '', land: '' },
   editingId: null,
   detailId: null,
-  pairing: { food: '', beer: '' },
+  pairing: { food: '', beer: '', selectedDish: '' },
   gerichte: [],
   pairingSession: {}, // stilStandard → { vor:[], suppe:[], zwischen:[], haupt:[], dessert:[], kaese:[] } bereits gezeigt
   regaleRoom: 'Bierkeller',
@@ -820,6 +820,7 @@ function render() {
   else if (state.view === 'pairing') view.innerHTML = renderPairing();
   else if (state.view === 'stats') view.innerHTML = renderStats();
   else if (state.view === 'public') view.innerHTML = renderPublic();
+  if (state.view === 'pairing' && !state.detailId) renderFoodPairingPanel();
   wire();
 }
 
@@ -1260,6 +1261,7 @@ function renderDetail() {
   const idx = state.beers.findIndex(x => x.id === b.id);
   const pairings = parsePairings(b.pairings);
   const utd = untappdUrl(b);
+  const cellarItemId = b.lagerplaetze && b.lagerplaetze[0] ? b.lagerplaetze[0].bier_id || '' : '';
 
   return `<div class="detail-actions">
     <button class="btn btn-ghost" data-action="back">← Zurück</button>
@@ -1273,6 +1275,12 @@ function renderDetail() {
     </div>
     <div class="detail-title">${esc(b.name)} ${b.vintage ? `<span class="year">${b.vintage}</span>` : ''}</div>
     <div class="detail-brewery">${esc(b.brewery || '—')}${b.style ? ' · ' + esc(b.style) : ''}</div>
+
+    <div class="detail-cta">
+      <a class="btn btn-primary" href="/bier/biersommelier-app/?mode=cellar&amp;beer_id=${encodeURIComponent(b.id)}&amp;cellar_item_id=${encodeURIComponent(cellarItemId)}">
+        Dieses Bier verkosten
+      </a>
+    </div>
 
     ${utd ? `<div class="detail-cta">
       <a class="btn btn-untappd" href="${esc(utd.url)}" target="_blank" rel="noopener">
@@ -1441,6 +1449,21 @@ function renderPairing() {
 
   h += `</div></div></div>`;
   return h;
+}
+
+function renderFoodPairingPanel() {
+  const columns = document.querySelectorAll('.pairing-col');
+  const panel = columns[1];
+  if (!panel) return;
+  const query = state.pairing.food.toLowerCase().trim();
+  const matches = query.length >= 3 ? state.gerichte.filter(g => (g.gericht || '').toLowerCase().includes(query)) : [];
+  const selected = state.pairing.selectedDish ? matches.find(g => g.gericht === state.pairing.selectedDish) : null;
+  const styles = selected ? [...new Set(selected.bierstile || [])] : [];
+  const beers = selected ? state.beers.filter(b => b.stilStandard && styles.includes(b.stilStandard) && (b.quantity || 0) > 0) : [];
+  panel.innerHTML = `<h3>Welches Bier zu welcher Speise?</h3>
+    <div class="desc">Gericht eingeben → Gericht auswählen → passende Bierstile und Biere anzeigen.</div>
+    <input type="search" id="foodInput" placeholder="z. B. Wildragout, Blauschimmelkäse…" value="${esc(state.pairing.food)}">
+    <div style="margin-top:12px">${!query ? `<div class="pairing-result-meta">Bitte ein Gericht eingeben.</div>` : query.length < 3 ? `<div class="pairing-result-meta">Mindestens 3 Zeichen eingeben.</div>` : !matches.length ? `<div class="pairing-result-meta">Kein Gericht gefunden.</div>` : `<div style="font-family:var(--font-display);font-size:14px;color:var(--bottle);margin-bottom:7px">${selected ? 'Ausgewähltes Gericht' : 'Gericht auswählen'}</div>${matches.slice(0,12).map(g => `<button type="button" class="pairing-result" data-food-choice="${esc(g.gericht)}" style="display:block;width:100%;text-align:left;border:0;background:${selected && selected.gericht === g.gericht ? 'var(--paper)' : 'transparent'};${selected && selected.gericht === g.gericht ? 'box-shadow:inset 3px 0 var(--gold);' : ''}"><div class="pairing-result-name">${esc(g.gericht)}</div><div class="pairing-result-meta">${esc(g.kategorie || '')}${g.unterkategorie ? ' · ' + esc(g.unterkategorie) : ''}</div></button>`).join('')}${matches.length > 12 ? `<div class="pairing-result-meta">… und ${matches.length - 12} weitere Treffer. Suche verfeinern.</div>` : ''}${selected ? `<div style="border-top:1px solid var(--rule);margin-top:14px;padding-top:12px"><div style="font-family:var(--font-display);font-size:17px;font-weight:600;color:var(--bottle);margin-bottom:5px">Passende Bierstile</div><div class="beer-tags">${styles.map(stil => `<span class="pairing-chip">${esc(stil)}</span>`).join('')}</div><div style="font-family:var(--font-display);font-size:17px;font-weight:600;color:var(--bottle);margin:14px 0 5px">Biere aus dem Keller</div>${beers.length ? beers.slice(0,8).map(b => { const idx = state.beers.findIndex(x => x.id === b.id); return `<div class="pairing-result" data-detail="${b.id}"><div class="pairing-result-name">${esc(b.name)}</div><div class="pairing-result-meta">${esc(catNo(b, idx))} · ${esc(b.brewery || '')} · ${esc(b.stilStandard || '')} · ${b.quantity || 0}×</div></div>`; }).join('') : `<div class="pairing-result-meta">Keines dieser Bierstile ist derzeit im Kellerbestand vorhanden.</div>`}</div>` : `<div class="pairing-result-meta" style="padding-top:10px">Bitte zuerst ein Gericht aus der Liste auswählen.</div>`}</div>`}`;
 }
 
 function renderStats() {
@@ -1782,7 +1805,10 @@ function wire() {
   const fland = document.getElementById('filterLand');
   if (fland) fland.onchange = e => { state.filters.land = e.target.value; render(); };
   const f = document.getElementById('foodInput');
-  if (f) f.oninput = e => { state.pairing.food = e.target.value; render(); const el = document.getElementById('foodInput'); if (el) { el.focus(); el.setSelectionRange(el.value.length, el.value.length); } };
+  if (f) f.oninput = e => { state.pairing.food = e.target.value; state.pairing.selectedDish = ''; render(); const el = document.getElementById('foodInput'); if (el) { el.focus(); el.setSelectionRange(el.value.length, el.value.length); } };
+  document.querySelectorAll('[data-food-choice]').forEach(el => {
+    el.addEventListener('click', () => { state.pairing.selectedDish = el.dataset.foodChoice; render(); });
+  });
   const be = document.getElementById('beerInput');
   if (be) be.oninput = e => { state.pairing.beer = e.target.value; render(); const el = document.getElementById('beerInput'); if (el) { el.focus(); el.setSelectionRange(el.value.length, el.value.length); } };
 }
