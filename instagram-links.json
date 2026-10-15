@@ -1,833 +1,47 @@
 {
- "stand": "2026-10-09",
+ "stand": "2026-10-15",
  "hinweis": "Linkliste fuer www.riedberg.at/links-aus-instagram/ – Format: [Datum JJJJ-MM-TT, Titel, Link, Posting-Thema]; Datum leer = immer sichtbar",
  "links": [
   [
-   "2026-09-11",
-   "Bier des Monats",
-   "/bier-des-monats/",
-   "BUY YOUR PRIEST A BEER DAY | WIE DER ZUFALL SO SPIELT …"
+   "2026-10-16",
+   "Buchen Sie direkt beim Riedberg",
+   "https://www.riedberg.at/hotel-direktbuchung/",
+   "ALLES HOTEL | DIREKT IST DIREKTER"
   ],
   [
-   "2026-09-09",
-   "Bier des Monats",
-   "/bier-des-monats/",
-   "BIER DES MONATS | LA TRAPPE DUBBEL"
+   "2026-10-14",
+   "Reservieren Sie Ihren Tisch",
+   "https://www.riedberg.at/wirtshaus/tischreservierung/",
+   "ALLES WIRTSHAUS | ZUSAMMENSITZEN"
   ],
   [
-   "2026-08-01",
-   "Bierkeller-App – unser Bierkeller digital",
-   "/bier/bierkeller-app/",
-   "Einzigartiger Bierkeller | Mehr als 500 Biere entdecken"
-  ],
-  [
-   "2026-07-23",
-   "Zusers Rindsgulasch – Video zum Nachkochen",
-   "https://youtu.be/Us3GS9cBpz8",
-   "AUS DER KÜCHE | GESTERN GULASCH, HEUTE BIERFLEISCH"
-  ],
-  [
-   "2026-06-24",
-   "Bierkulturreise Irland 2026 – Teil 3",
-   "/irlandreise-2026-teil-3/",
-   "KARLS BIERREISEN | IRLAND 2026 | Teil 3"
-  ],
-  [
-   "2026-06-22",
-   "Bierkulturreise Irland 2026 – Teil 2",
-   "/irlandreise-2026-teil-2/",
-   "ALLES Fußball | Unterstützung aus Irland"
-  ],
-  [
-   "2026-06-21",
-   "Bierkulturreise Irland 2026 – Teil 1",
-   "/irlandreise-2026-teil-1/",
-   "ALLES Bierreise | Irland 2026"
-  ],
-  [
-   "2026-06-13",
-   "Austrian Beer Challenge 2026 – die Siegerbiere Österreichs",
-   "/austrian-beer-challenge-2026-die-siegerbiere-oesterreichs/",
-   "ALLES Bierkultur | Staatsmeisterschaft"
-  ],
-  [
-   "2026-06-10",
-   "Bier des Monats",
-   "/bier-des-monats/",
-   "BIER DES MONATS | BrewDog Punk IPA"
-  ],
-  [
-   "2026-05-30",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierreise | Rieder Wirt Moosbach"
-  ],
-  [
-   "2026-05-30",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierreise | Rieder Wirt Moosbach"
-  ],
-  [
-   "2026-05-30",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierreise | Rieder Wirt Moosbach"
-  ],
-  [
-   "2026-05-28",
-   "Wie viele Bierstile gibt es eigentlich?",
-   "/un-nuetzliches-bier-wissen-wie-viele-bierstile-gibt-es-eigentlich/",
-   "ALLES Bierwissen | Wie viele Bierstile?"
-  ],
-  [
-   "2026-05-22",
-   "Hotel Riedberg – Zimmer & Angebote",
-   "/hotel/",
-   "ALLES Schlaf | Ehrliche Qualität"
-  ],
-  [
-   "2026-05-17",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Auflösung #50"
-  ],
-  [
-   "2026-05-17",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Auflösung #50"
-  ],
-  [
-   "2026-05-17",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Auflösung #50"
-  ],
-  [
-   "2026-05-17",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Auflösung #50"
-  ],
-  [
-   "2026-05-13",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Folge #50"
-  ],
-  [
-   "2026-05-13",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #50"
-  ],
-  [
-   "2026-05-13",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Folge #50"
-  ],
-  [
-   "2026-05-13",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Folge #50"
-  ],
-  [
-   "2026-05-13",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Folge #50"
-  ],
-  [
-   "2026-05-09",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Auflösung #49"
-  ],
-  [
-   "2026-05-09",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Auflösung #49"
-  ],
-  [
-   "2026-05-09",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Auflösung #49"
-  ],
-  [
-   "2026-05-09",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Auflösung #49"
-  ],
-  [
-   "2026-05-06",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Folge #49"
-  ],
-  [
-   "2026-05-06",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #49"
-  ],
-  [
-   "2026-05-06",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Folge #49"
-  ],
-  [
-   "2026-05-06",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Folge #49"
-  ],
-  [
-   "2026-05-06",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Folge #49"
-  ],
-  [
-   "2026-05-03",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Auflösung #48"
-  ],
-  [
-   "2026-05-03",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Auflösung #48"
-  ],
-  [
-   "2026-05-03",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Auflösung #48"
-  ],
-  [
-   "2026-05-03",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Auflösung #48"
-  ],
-  [
-   "2026-05-01",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Folge #48"
-  ],
-  [
-   "2026-05-01",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #48"
-  ],
-  [
-   "2026-05-01",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Folge #48"
-  ],
-  [
-   "2026-05-01",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Folge #48"
-  ],
-  [
-   "2026-05-01",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Folge #48"
-  ],
-  [
-   "2026-04-25",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Auflösung #47"
-  ],
-  [
-   "2026-04-25",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Auflösung #47"
-  ],
-  [
-   "2026-04-25",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Auflösung #47"
-  ],
-  [
-   "2026-04-25",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Auflösung #47"
-  ],
-  [
-   "2026-04-24",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Folge #47"
-  ],
-  [
-   "2026-04-24",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #47"
-  ],
-  [
-   "2026-04-24",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Folge #47"
-  ],
-  [
-   "2026-04-24",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Folge #47"
-  ],
-  [
-   "2026-04-24",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Folge #47"
-  ],
-  [
-   "2026-04-19",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Auflösung #46"
-  ],
-  [
-   "2026-04-19",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Auflösung #46"
-  ],
-  [
-   "2026-04-19",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Auflösung #46"
-  ],
-  [
-   "2026-04-19",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Auflösung #46"
-  ],
-  [
-   "2026-04-15",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Folge #46"
-  ],
-  [
-   "2026-04-15",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #46"
-  ],
-  [
-   "2026-04-15",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Folge #46"
-  ],
-  [
-   "2026-04-15",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Folge #46"
-  ],
-  [
-   "2026-04-15",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Folge #46"
-  ],
-  [
-   "2026-04-11",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Auflösung #45"
-  ],
-  [
-   "2026-04-11",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Auflösung #45"
-  ],
-  [
-   "2026-04-11",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Auflösung #45"
-  ],
-  [
-   "2026-04-11",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Auflösung #45"
-  ],
-  [
-   "2026-04-10",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierreise | Kein Ausflug. Ein Erlebnis."
-  ],
-  [
-   "2026-04-08",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Auflösung #44 – Fastenbier #daraufeinbier"
-  ],
-  [
-   "2026-04-08",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Folge #45"
-  ],
-  [
-   "2026-04-08",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #45"
-  ],
-  [
-   "2026-04-08",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Auflösung #44 – Fastenbier #daraufeinbier"
-  ],
-  [
-   "2026-04-08",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Folge #45"
-  ],
-  [
-   "2026-04-08",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Auflösung #44 – Fastenbier #daraufeinbier"
-  ],
-  [
-   "2026-04-08",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Folge #45"
-  ],
-  [
-   "2026-04-08",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Auflösung #44 – Fastenbier #daraufeinbier"
-  ],
-  [
-   "2026-04-08",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Folge #45"
-  ],
-  [
-   "2026-04-04",
-   "Zusers Rindsgulasch – Video zum Nachkochen",
-   "https://youtu.be/Us3GS9cBpz8",
-   "ALLES Herkunft | Karl kocht ein"
-  ],
-  [
-   "2026-04-02",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Folge #44"
-  ],
-  [
-   "2026-04-02",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #44"
-  ],
-  [
-   "2026-04-02",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Folge #44"
-  ],
-  [
-   "2026-04-02",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Folge #44"
-  ],
-  [
-   "2026-04-02",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Folge #44"
-  ],
-  [
-   "2026-03-28",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Auflösung #43"
-  ],
-  [
-   "2026-03-28",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Auflösung #43"
-  ],
-  [
-   "2026-03-28",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Auflösung #43"
-  ],
-  [
-   "2026-03-28",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Auflösung #43"
-  ],
-  [
-   "2026-03-27",
-   "Wirtshaus-Tour Oberes Innviertel – Karte der Stationen",
-   "https://maps.app.goo.gl/8bJswzC3H7DgZjez6",
-   "ALLES Bierreise | Oberes Innviertel – Ehrlich brutal"
-  ],
-  [
-   "2026-03-25",
-   "Bier des Monats",
-   "/bier-des-monats/",
-   "ALLES Bier | Bier des Monats"
-  ],
-  [
-   "2026-03-24",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Folge #43"
-  ],
-  [
-   "2026-03-24",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #43"
-  ],
-  [
-   "2026-03-24",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Folge #43"
-  ],
-  [
-   "2026-03-24",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Folge #43"
-  ],
-  [
-   "2026-03-24",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Folge #43"
-  ],
-  [
-   "2026-03-22",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Auflösung #42"
-  ],
-  [
-   "2026-03-22",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Auflösung #42"
-  ],
-  [
-   "2026-03-22",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Auflösung #42"
-  ],
-  [
-   "2026-03-22",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Auflösung #42"
-  ],
-  [
-   "2026-03-20",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierreise | Müllner Bräu Salzburg"
-  ],
-  [
-   "2026-03-20",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierreise | Müllner Bräu Salzburg"
-  ],
-  [
-   "2026-03-19",
-   "Knödel-Testesser in Ried – Beitrag auf LT1",
-   "https://www.lt1.at/aktuelles/knoedel-testesser-in-ried/",
-   "ALLES Knödel | Auf LT 1 ausgestrahlt"
-  ],
-  [
-   "2026-03-15",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Auflösung #41"
-  ],
-  [
-   "2026-03-15",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Auflösung #41"
-  ],
-  [
-   "2026-03-15",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Auflösung #41"
-  ],
-  [
-   "2026-03-15",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Auflösung #41"
-  ],
-  [
-   "2026-03-11",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Folge #41"
-  ],
-  [
-   "2026-03-11",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #41"
-  ],
-  [
-   "2026-03-11",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Folge #41"
-  ],
-  [
-   "2026-03-11",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Folge #41"
-  ],
-  [
-   "2026-03-11",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Folge #41"
-  ],
-  [
-   "2026-03-09",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Auflösung #40"
-  ],
-  [
-   "2026-03-09",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Auflösung #40"
-  ],
-  [
-   "2026-03-09",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Auflösung #40"
-  ],
-  [
-   "2026-03-09",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Auflösung #40"
-  ],
-  [
-   "2026-03-04",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Folge #40"
-  ],
-  [
-   "2026-03-04",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #40"
-  ],
-  [
-   "2026-03-04",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Folge #40"
-  ],
-  [
-   "2026-03-04",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Folge #40"
-  ],
-  [
-   "2026-03-04",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Folge #40"
-  ],
-  [
-   "2026-02-26",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #39"
-  ],
-  [
-   "2026-02-24",
-   "Innviertler Bierigologenstammtisch",
-   "/veranstaltung/innviertler-bierigologenstammtisch/",
-   "ALLES Stammtisch | Erinnern um nicht zu vergessen"
-  ],
-  [
-   "2026-02-18",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #38"
-  ],
-  [
-   "2026-02-06",
-   "Hotel Riedberg – Zimmer & Angebote",
-   "/hotel/",
-   "ALLES Hotel | Matratzentausch – weil guter Schlaf kein Zufall ist."
-  ],
-  [
-   "2026-01-28",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #35"
-  ],
-  [
-   "2026-01-25",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Reha. Rauschen. Rückkehr."
-  ],
-  [
-   "2026-01-10",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Auflösung #34"
-  ],
-  [
-   "2026-01-10",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Auflösung #34"
-  ],
-  [
-   "2026-01-10",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Auflösung #34"
-  ],
-  [
-   "2026-01-10",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Auflösung #34"
-  ],
-  [
-   "2026-01-06",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Folge #34 – Erkennst du den Stil?"
-  ],
-  [
-   "2026-01-06",
-   "YouTube-Kanal – Bierstil-Quiz & Videos",
-   "https://www.youtube.com/@biergasthofhotelriedberg",
-   "ALLES Bierstil | Folge #34 – Erkennst du den Stil?"
-  ],
-  [
-   "2026-01-06",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Folge #34 – Erkennst du den Stil?"
-  ],
-  [
-   "2026-01-06",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Folge #34 – Erkennst du den Stil?"
-  ],
-  [
-   "2026-01-06",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Folge #34 – Erkennst du den Stil?"
-  ],
-  [
-   "2026-01-03",
-   "Zusers feinstes Biergeschenkkisterl",
-   "/bier/biergeschenke/",
-   "ALLES Bierstil | Auflösung #33"
-  ],
-  [
-   "2026-01-03",
-   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
-   "/rieder-bierbummel-buchung/",
-   "ALLES Bierstil | Auflösung #33"
-  ],
-  [
-   "2026-01-03",
-   "Bierverkostungsratgeber – kostenlos",
-   "/bierverkostungsratgeber/",
-   "ALLES Bierstil | Auflösung #33"
-  ],
-  [
-   "2026-01-03",
-   "Bierurlaub im Innviertel – Bierreise-Finder",
-   "/bierreise-finder/",
-   "ALLES Bierstil | Auflösung #33"
+   "2026-10-12",
+   "Finden Sie Ihren Bierurlaub",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES BIERURLAUB | WAS PASST ZU EUCH?"
   ],
   [
    "2026-10-11",
    "Bierkeller-App – unser Bierkeller digital",
-   "/bier/bierkeller-app/",
+   "https://www.riedberg.at/bier/bierkeller-app/",
    "ALLES BIERKELLER | WO IST MEIN BIER?"
   ],
   [
    "2026-10-11",
    "Der einzigartige Bierkeller – mehr als 500 Biere",
-   "/bier/bierkeller/",
+   "https://www.riedberg.at/bier/bierkeller/",
    "ALLES BIERKELLER | WO IST MEIN BIER?"
   ],
   [
    "2026-10-10",
    "Bierstile – von obergärig bis untergärig",
-   "/bier/bierstile/",
+   "https://www.riedberg.at/bier/bierstile/",
    "ALLES BIERSTILE | OBEN ODER UNTEN?"
   ],
   [
    "2026-10-09",
    "Weihnachtsfeier in Ried im Innkreis",
-   "/weihnachtsfeier-ried-berg/",
+   "https://www.riedberg.at/weihnachtsfeier-ried-berg/",
    "ALLES WEIHNACHTSFEIER | DER TISCH IST …"
   ],
   [
@@ -835,6 +49,30 @@
    "Brausilvester – Karls Kurzvideo zum neuen Braujahr",
    "https://youtube.com/shorts/C3qd_MEbwIU",
    "BRAUSILVESTER | HOPPY NEW BEER Michaeli Braujahr"
+  ],
+  [
+   "2026-09-11",
+   "Bier des Monats",
+   "https://www.riedberg.at/bier-des-monats/",
+   "BUY YOUR PRIEST A BEER DAY | WIE DER ZUFALL SO SPIELT …"
+  ],
+  [
+   "2026-09-09",
+   "Bier des Monats",
+   "https://www.riedberg.at/bier-des-monats/",
+   "BIER DES MONATS | LA TRAPPE DUBBEL"
+  ],
+  [
+   "2026-08-01",
+   "Bierkeller-App – unser Bierkeller digital",
+   "https://www.riedberg.at/bier/bierkeller-app/",
+   "Einzigartiger Bierkeller | Mehr als 500 Biere entdecken"
+  ],
+  [
+   "2026-07-23",
+   "Zusers Rindsgulasch – Video zum Nachkochen",
+   "https://youtu.be/Us3GS9cBpz8",
+   "AUS DER KÜCHE | GESTERN GULASCH, HEUTE BIERFLEISCH"
   ],
   [
    "2026-07-23",
@@ -851,25 +89,805 @@
   [
    "2026-06-27",
    "Innviertler Bier-Schnupperauszeit",
-   "/innviertler-bier-schnupperauszeit/",
+   "https://www.riedberg.at/innviertler-bier-schnupperauszeit/",
    "ALLES Gastfreundschaft | Ein Wochenende voller Begegnungen Bierschnupper-Wochenende"
+  ],
+  [
+   "2026-06-24",
+   "Bierkulturreise Irland 2026 – Teil 3",
+   "https://www.riedberg.at/irlandreise-2026-teil-3/",
+   "KARLS BIERREISEN | IRLAND 2026 | Teil 3"
+  ],
+  [
+   "2026-06-22",
+   "Bierkulturreise Irland 2026 – Teil 2",
+   "https://www.riedberg.at/irlandreise-2026-teil-2/",
+   "ALLES Fußball | Unterstützung aus Irland"
+  ],
+  [
+   "2026-06-21",
+   "Bierkulturreise Irland 2026 – Teil 1",
+   "https://www.riedberg.at/irlandreise-2026-teil-1/",
+   "ALLES Bierreise | Irland 2026"
+  ],
+  [
+   "2026-06-13",
+   "Austrian Beer Challenge 2026 – die Siegerbiere Österreichs",
+   "https://www.riedberg.at/austrian-beer-challenge-2026-die-siegerbiere-oesterreichs/",
+   "ALLES Bierkultur | Staatsmeisterschaft"
+  ],
+  [
+   "2026-06-10",
+   "Bier des Monats",
+   "https://www.riedberg.at/bier-des-monats/",
+   "BIER DES MONATS | BrewDog Punk IPA"
+  ],
+  [
+   "2026-05-30",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierreise | Rieder Wirt Moosbach"
+  ],
+  [
+   "2026-05-30",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierreise | Rieder Wirt Moosbach"
+  ],
+  [
+   "2026-05-30",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierreise | Rieder Wirt Moosbach"
+  ],
+  [
+   "2026-05-28",
+   "Wie viele Bierstile gibt es eigentlich?",
+   "https://www.riedberg.at/un-nuetzliches-bier-wissen-wie-viele-bierstile-gibt-es-eigentlich/",
+   "ALLES Bierwissen | Wie viele Bierstile?"
+  ],
+  [
+   "2026-05-22",
+   "Hotel Riedberg – Zimmer & Angebote",
+   "https://www.riedberg.at/hotel/",
+   "ALLES Schlaf | Ehrliche Qualität"
+  ],
+  [
+   "2026-05-17",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Auflösung #50"
+  ],
+  [
+   "2026-05-17",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Auflösung #50"
+  ],
+  [
+   "2026-05-17",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Auflösung #50"
+  ],
+  [
+   "2026-05-17",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Auflösung #50"
+  ],
+  [
+   "2026-05-13",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Folge #50"
+  ],
+  [
+   "2026-05-13",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #50"
+  ],
+  [
+   "2026-05-13",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Folge #50"
+  ],
+  [
+   "2026-05-13",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Folge #50"
+  ],
+  [
+   "2026-05-13",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Folge #50"
   ],
   [
    "2026-05-13",
    "Gewinnspielrichtlinien",
-   "/gewinnspielrichtlinien/",
+   "https://www.riedberg.at/gewinnspielrichtlinien/",
    "ALLES Bierstil | Folge #50 Gewinnspiel Teilnahmebedingungen"
   ],
   [
    "2026-05-13",
    "Gewinnspielrichtlinien Facebook",
-   "/gewinnspielrichtlinien-facebook/",
+   "https://www.riedberg.at/gewinnspielrichtlinien-facebook/",
    "ALLES Bierstil | Folge #50 Gewinnspiel Teilnahmebedingungen"
+  ],
+  [
+   "2026-05-09",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Auflösung #49"
+  ],
+  [
+   "2026-05-09",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Auflösung #49"
+  ],
+  [
+   "2026-05-09",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Auflösung #49"
+  ],
+  [
+   "2026-05-09",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Auflösung #49"
+  ],
+  [
+   "2026-05-06",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Folge #49"
+  ],
+  [
+   "2026-05-06",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #49"
+  ],
+  [
+   "2026-05-06",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Folge #49"
+  ],
+  [
+   "2026-05-06",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Folge #49"
+  ],
+  [
+   "2026-05-06",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Folge #49"
+  ],
+  [
+   "2026-05-03",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Auflösung #48"
+  ],
+  [
+   "2026-05-03",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Auflösung #48"
+  ],
+  [
+   "2026-05-03",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Auflösung #48"
+  ],
+  [
+   "2026-05-03",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Auflösung #48"
+  ],
+  [
+   "2026-05-01",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Folge #48"
+  ],
+  [
+   "2026-05-01",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #48"
+  ],
+  [
+   "2026-05-01",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Folge #48"
+  ],
+  [
+   "2026-05-01",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Folge #48"
+  ],
+  [
+   "2026-05-01",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Folge #48"
+  ],
+  [
+   "2026-04-25",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Auflösung #47"
+  ],
+  [
+   "2026-04-25",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Auflösung #47"
+  ],
+  [
+   "2026-04-25",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Auflösung #47"
+  ],
+  [
+   "2026-04-25",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Auflösung #47"
+  ],
+  [
+   "2026-04-24",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Folge #47"
+  ],
+  [
+   "2026-04-24",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #47"
+  ],
+  [
+   "2026-04-24",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Folge #47"
+  ],
+  [
+   "2026-04-24",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Folge #47"
+  ],
+  [
+   "2026-04-24",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Folge #47"
+  ],
+  [
+   "2026-04-19",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Auflösung #46"
+  ],
+  [
+   "2026-04-19",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Auflösung #46"
+  ],
+  [
+   "2026-04-19",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Auflösung #46"
+  ],
+  [
+   "2026-04-19",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Auflösung #46"
+  ],
+  [
+   "2026-04-15",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Folge #46"
+  ],
+  [
+   "2026-04-15",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #46"
+  ],
+  [
+   "2026-04-15",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Folge #46"
+  ],
+  [
+   "2026-04-15",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Folge #46"
+  ],
+  [
+   "2026-04-15",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Folge #46"
+  ],
+  [
+   "2026-04-11",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Auflösung #45"
+  ],
+  [
+   "2026-04-11",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Auflösung #45"
+  ],
+  [
+   "2026-04-11",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Auflösung #45"
+  ],
+  [
+   "2026-04-11",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Auflösung #45"
+  ],
+  [
+   "2026-04-10",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierreise | Kein Ausflug. Ein Erlebnis."
+  ],
+  [
+   "2026-04-08",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Auflösung #44 – Fastenbier #daraufeinbier"
+  ],
+  [
+   "2026-04-08",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Folge #45"
+  ],
+  [
+   "2026-04-08",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #45"
+  ],
+  [
+   "2026-04-08",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Auflösung #44 – Fastenbier #daraufeinbier"
+  ],
+  [
+   "2026-04-08",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Folge #45"
+  ],
+  [
+   "2026-04-08",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Auflösung #44 – Fastenbier #daraufeinbier"
+  ],
+  [
+   "2026-04-08",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Folge #45"
+  ],
+  [
+   "2026-04-08",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Auflösung #44 – Fastenbier #daraufeinbier"
+  ],
+  [
+   "2026-04-08",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Folge #45"
+  ],
+  [
+   "2026-04-04",
+   "Zusers Rindsgulasch – Video zum Nachkochen",
+   "https://youtu.be/Us3GS9cBpz8",
+   "ALLES Herkunft | Karl kocht ein"
+  ],
+  [
+   "2026-04-02",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Folge #44"
+  ],
+  [
+   "2026-04-02",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #44"
+  ],
+  [
+   "2026-04-02",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Folge #44"
+  ],
+  [
+   "2026-04-02",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Folge #44"
+  ],
+  [
+   "2026-04-02",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Folge #44"
+  ],
+  [
+   "2026-03-28",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Auflösung #43"
+  ],
+  [
+   "2026-03-28",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Auflösung #43"
+  ],
+  [
+   "2026-03-28",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Auflösung #43"
+  ],
+  [
+   "2026-03-28",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Auflösung #43"
+  ],
+  [
+   "2026-03-27",
+   "Wirtshaus-Tour Oberes Innviertel – Karte der Stationen",
+   "https://maps.app.goo.gl/8bJswzC3H7DgZjez6",
+   "ALLES Bierreise | Oberes Innviertel – Ehrlich brutal"
+  ],
+  [
+   "2026-03-25",
+   "Bier des Monats",
+   "https://www.riedberg.at/bier-des-monats/",
+   "ALLES Bier | Bier des Monats"
+  ],
+  [
+   "2026-03-24",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Folge #43"
+  ],
+  [
+   "2026-03-24",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #43"
+  ],
+  [
+   "2026-03-24",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Folge #43"
+  ],
+  [
+   "2026-03-24",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Folge #43"
+  ],
+  [
+   "2026-03-24",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Folge #43"
+  ],
+  [
+   "2026-03-22",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Auflösung #42"
+  ],
+  [
+   "2026-03-22",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Auflösung #42"
+  ],
+  [
+   "2026-03-22",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Auflösung #42"
+  ],
+  [
+   "2026-03-22",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Auflösung #42"
+  ],
+  [
+   "2026-03-20",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierreise | Müllner Bräu Salzburg"
+  ],
+  [
+   "2026-03-20",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierreise | Müllner Bräu Salzburg"
+  ],
+  [
+   "2026-03-19",
+   "Knödel-Testesser in Ried – Beitrag auf LT1",
+   "https://www.lt1.at/aktuelles/knoedel-testesser-in-ried/",
+   "ALLES Knödel | Auf LT 1 ausgestrahlt"
+  ],
+  [
+   "2026-03-15",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Auflösung #41"
+  ],
+  [
+   "2026-03-15",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Auflösung #41"
+  ],
+  [
+   "2026-03-15",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Auflösung #41"
+  ],
+  [
+   "2026-03-15",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Auflösung #41"
+  ],
+  [
+   "2026-03-11",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Folge #41"
+  ],
+  [
+   "2026-03-11",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #41"
+  ],
+  [
+   "2026-03-11",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Folge #41"
+  ],
+  [
+   "2026-03-11",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Folge #41"
+  ],
+  [
+   "2026-03-11",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Folge #41"
+  ],
+  [
+   "2026-03-09",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Auflösung #40"
+  ],
+  [
+   "2026-03-09",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Auflösung #40"
+  ],
+  [
+   "2026-03-09",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Auflösung #40"
+  ],
+  [
+   "2026-03-09",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Auflösung #40"
+  ],
+  [
+   "2026-03-04",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Folge #40"
+  ],
+  [
+   "2026-03-04",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #40"
+  ],
+  [
+   "2026-03-04",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Folge #40"
+  ],
+  [
+   "2026-03-04",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Folge #40"
+  ],
+  [
+   "2026-03-04",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Folge #40"
+  ],
+  [
+   "2026-02-26",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #39"
+  ],
+  [
+   "2026-02-24",
+   "Innviertler Bierigologenstammtisch",
+   "https://www.riedberg.at/veranstaltung/innviertler-bierigologenstammtisch/",
+   "ALLES Stammtisch | Erinnern um nicht zu vergessen"
+  ],
+  [
+   "2026-02-18",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #38"
+  ],
+  [
+   "2026-02-06",
+   "Hotel Riedberg – Zimmer & Angebote",
+   "https://www.riedberg.at/hotel/",
+   "ALLES Hotel | Matratzentausch – weil guter Schlaf kein Zufall ist."
+  ],
+  [
+   "2026-01-28",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #35"
+  ],
+  [
+   "2026-01-25",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Reha. Rauschen. Rückkehr."
+  ],
+  [
+   "2026-01-10",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Auflösung #34"
+  ],
+  [
+   "2026-01-10",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Auflösung #34"
+  ],
+  [
+   "2026-01-10",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Auflösung #34"
+  ],
+  [
+   "2026-01-10",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Auflösung #34"
+  ],
+  [
+   "2026-01-06",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Folge #34 – Erkennst du den Stil?"
+  ],
+  [
+   "2026-01-06",
+   "YouTube-Kanal – Bierstil-Quiz & Videos",
+   "https://www.youtube.com/@biergasthofhotelriedberg",
+   "ALLES Bierstil | Folge #34 – Erkennst du den Stil?"
+  ],
+  [
+   "2026-01-06",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Folge #34 – Erkennst du den Stil?"
+  ],
+  [
+   "2026-01-06",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Folge #34 – Erkennst du den Stil?"
+  ],
+  [
+   "2026-01-06",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Folge #34 – Erkennst du den Stil?"
+  ],
+  [
+   "2026-01-03",
+   "Zusers feinstes Biergeschenkkisterl",
+   "https://www.riedberg.at/bier/biergeschenke/",
+   "ALLES Bierstil | Auflösung #33"
+  ],
+  [
+   "2026-01-03",
+   "Rieder Bierbummel – die Bierwanderung durch Ried im Innkreis",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES Bierstil | Auflösung #33"
+  ],
+  [
+   "2026-01-03",
+   "Bierverkostungsratgeber – kostenlos",
+   "https://www.riedberg.at/bierverkostungsratgeber/",
+   "ALLES Bierstil | Auflösung #33"
+  ],
+  [
+   "2026-01-03",
+   "Bierurlaub im Innviertel – Bierreise-Finder",
+   "https://www.riedberg.at/bierreise-finder/",
+   "ALLES Bierstil | Auflösung #33"
   ],
   [
    "",
    "Erlebnisgutschein & Geschenke vom Riedberg",
-   "/erlebnisgutschein/",
+   "https://www.riedberg.at/erlebnisgutschein/",
    ""
   ],
   [
