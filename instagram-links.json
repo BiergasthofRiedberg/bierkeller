@@ -1,7 +1,13 @@
 {
- "stand": "2026-10-20",
+ "stand": "2026-10-29",
  "hinweis": "Linkliste fuer www.riedberg.at/links-aus-instagram/ – Format: [Datum JJJJ-MM-TT, Titel, Link, Posting-Thema]; Datum leer = immer sichtbar",
  "links": [
+  [
+   "2026-10-24",
+   "Rieder Bierbummel",
+   "https://www.riedberg.at/rieder-bierbummel-buchung/",
+   "ALLES BIERBUMMEL | RIED SCHMECKT ANDERS"
+  ],
   [
    "2026-10-22",
    "Weihnachtsfeier am Riedberg",
