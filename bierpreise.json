@@ -1,0 +1,24 @@
+{
+  "version": "2025",
+  "waehrung": "EUR",
+  "quelle": "Farbkarte_Bierkarte_Preise_2025.pdf",
+  "preisstufen": [
+    {"code":"P01","preis":7.60,"farbfamilie":"Rot","stufe":1,"label":"Dunkelrot"},
+    {"code":"P02","preis":7.90,"farbfamilie":"Rot","stufe":2,"label":"Rot"},
+    {"code":"P03","preis":8.90,"farbfamilie":"Rot","stufe":3,"label":"Hellrot"},
+    {"code":"P04","preis":9.90,"farbfamilie":"Rot","stufe":4,"label":"Leuchtrot"},
+    {"code":"P05","preis":10.90,"farbfamilie":"Blau","stufe":1,"label":"Sehr hellblau"},
+    {"code":"P06","preis":11.90,"farbfamilie":"Blau","stufe":2,"label":"Hellblau"},
+    {"code":"P07","preis":13.90,"farbfamilie":"Blau","stufe":3,"label":"Mittelblau"},
+    {"code":"P08","preis":15.90,"farbfamilie":"Blau","stufe":4,"label":"Dunkelblau"},
+    {"code":"P09","preis":19.90,"farbfamilie":"Gelb","stufe":1,"label":"Gelb"},
+    {"code":"P10","preis":25.90,"farbfamilie":"Gruen","stufe":1,"label":"Hellgruen"},
+    {"code":"P11","preis":29.90,"farbfamilie":"Gruen","stufe":2,"label":"Dunkelgruen"},
+    {"code":"P12","preis":32.90,"farbfamilie":"Braun","stufe":1,"label":"Hellbraun"},
+    {"code":"P13","preis":39.90,"farbfamilie":"Braun","stufe":2,"label":"Dunkelbraun"},
+    {"code":"P14","preis":52.90,"farbfamilie":"Schwarz","stufe":1,"label":"Schwarz"},
+    {"code":"P15","preis":63.90,"farbfamilie":"Grau","stufe":1,"label":"Dunkelgrau"},
+    {"code":"P16","preis":84.20,"farbfamilie":"Grau","stufe":2,"label":"Mittelgrau"},
+    {"code":"P17","preis":94.70,"farbfamilie":"Grau","stufe":3,"label":"Hellgrau"}
+  ]
+}
