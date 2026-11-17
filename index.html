@@ -603,6 +603,9 @@
     <form class="beer-form" id="beerForm" onsubmit="return saveBeer(event)">
       <div class="field full"><label>Name / Produkt</label><input name="name" required></div>
       <div class="field"><label>Brauerei / Marke</label><input name="brewery"></div>
+      <div class="field"><label>EAN / GTIN (optional)</label><input name="ean" type="text" inputmode="numeric" autocomplete="off" placeholder="Barcode, sonst leer"></div>
+      <div class="field"><label>AIDA-Artikelnummer (optional)</label><input name="aidaArtikelnummer" type="text" autocomplete="off" placeholder="Auch mit führenden Nullen"></div>
+      <div class="field full"><span class="hint">Diese Kennungen sind nicht für Gäste gedacht. Achtung: Solange die Bierdaten als öffentlich zugängliche JSON-Datei gespeichert werden, sind dort auch eingegebene EAN- und AIDA-Nummern einsehbar. Für vertrauliche Artikelnummern zuerst geschützte Speicherung einrichten.</span></div>
       <div class="field"><label>Bierstil</label><input name="style" list="styles"><datalist id="styles"><option>Pilsner</option><option>Helles</option><option>Weißbier</option><option>IPA</option><option>Stout</option><option>Imperial Stout</option><option>Porter</option><option>Bock</option><option>Doppelbock</option><option>Belgian Quadrupel</option><option>Tripel</option><option>Saison</option><option>Lambic</option><option>Gueuze</option><option>Trappistenbier</option><option>Barleywine</option><option>Rauchbier</option></datalist></div>
       <div class="field"><label>Kategorie</label><input name="category" list="cats" value="Flasche"><datalist id="cats"><option>Flasche</option><option>Karton</option><option>Großflasche</option><option>Magnum</option><option>Magnum/Großflasche</option><option>Flasche/Karton</option><option>Flasche/Box</option><option>Spirituose</option><option>Tube</option></datalist></div>
       <div class="field"><label>Gebinde</label><input name="gebinde" placeholder="24×33cl Karton, 6×75cl…"></div>
@@ -774,6 +777,21 @@ async function persist() {
   }
 }
 
+// ==== Artikelkennungen: EAN/GTIN als Text, inkl. fuehrender Nullen ==== 
+function normalizeGTIN(value) {
+  return String(value || '').replace(/[\s-]+/g, '');
+}
+function isValidGTIN(value) {
+  if (!/^(?:\d{8}|\d{12}|\d{13}|\d{14})$/.test(value)) return false;
+  let sum = 0;
+  let weight = 3;
+  for (let i = value.length - 2; i >= 0; i--) {
+    sum += Number(value[i]) * weight;
+    weight = weight === 3 ? 1 : 3;
+  }
+  return (10 - (sum % 10)) % 10 === Number(value[value.length - 1]);
+}
+
 // ==== Utils ====
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const eur = n => new Intl.NumberFormat('de-AT', {style:'currency', currency:'EUR'}).format(n || 0);
@@ -835,7 +853,7 @@ function renderCatalog() {
     if (state.filters.land && (b.land || b.country) !== state.filters.land) return false;
     if (state.filters.search) {
       const q = state.filters.search.toLowerCase();
-      const hay = [b.name, b.brewery, b.style, b.stilStandard, b.land, b.country, b.vintage, b.pairings, b.notes, b.position, b.gebinde].join(' ').toLowerCase();
+      const hay = [b.name, b.brewery, b.ean, b.aidaArtikelnummer, b.style, b.stilStandard, b.land, b.country, b.vintage, b.pairings, b.notes, b.position, b.gebinde].join(' ').toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -854,7 +872,7 @@ function renderCatalog() {
   }
 
   h += `<div class="toolbar">
-    <input type="search" id="searchInput" placeholder="Suchen (Name, Brauerei, Position, ID…)" value="${esc(state.filters.search)}">
+    <input type="search" id="searchInput" placeholder="Suchen (Name, Brauerei, EAN, AIDA, Position…)" value="${esc(state.filters.search)}">
     <div class="spacer"></div>
 
   </div>`;
@@ -1568,7 +1586,7 @@ function openModal(beer) {
   const form = document.getElementById('beerForm');
   form.reset();
   if (beer) {
-    ['name','brewery','style','category','gebinde','platzId','position','subPosition','status','vintage','mhdJahrgang','quantity','value','pairings','untappdUrl','photo','link','notes','stilStandard'].forEach(k => {
+    ['name','brewery','ean','aidaArtikelnummer','style','category','gebinde','platzId','position','subPosition','status','vintage','mhdJahrgang','quantity','value','pairings','untappdUrl','photo','link','notes','stilStandard'].forEach(k => {
       if (form.elements[k] && beer[k] != null) form.elements[k].value = beer[k];
     });
     // Standardstil-Datalist befüllen
@@ -1595,9 +1613,29 @@ function closeModal() {
 function saveBeer(ev) {
   ev.preventDefault();
   const f = ev.target;
+  const ean = normalizeGTIN(f.elements.ean.value);
+  const aidaArtikelnummer = f.elements.aidaArtikelnummer.value.trim();
+  if (ean && !isValidGTIN(ean)) {
+    alert('Bitte eine gueltige EAN/GTIN mit korrekter Pruefziffer eingeben (8, 12, 13 oder 14 Ziffern) oder das Feld leer lassen.');
+    f.elements.ean.focus();
+    return false;
+  }
+  const doppelteNummern = [];
+  for (const b of state.beers) {
+    if (b.id === state.editingId) continue;
+    if (ean && normalizeGTIN(b.ean) === ean) doppelteNummern.push('EAN ' + ean + ': ' + b.name);
+    if (aidaArtikelnummer && String(b.aidaArtikelnummer || '').trim().toLowerCase() === aidaArtikelnummer.toLowerCase()) {
+      doppelteNummern.push('AIDA ' + aidaArtikelnummer + ': ' + b.name);
+    }
+  }
+  if (doppelteNummern.length && !confirm('Diese Artikelnummern kommen bereits bei anderen Eintraegen vor:\n' + doppelteNummern.slice(0, 6).join('\n') + '\n\nTrotzdem speichern?')) {
+    return false;
+  }
   const data = {
     name: f.name.value.trim(),
     brewery: f.brewery.value.trim(),
+    ean: ean,
+    aidaArtikelnummer: aidaArtikelnummer,
     style: f.style.value.trim(),
     category: f.category.value.trim() || 'Flasche',
     gebinde: f.gebinde.value.trim(),
