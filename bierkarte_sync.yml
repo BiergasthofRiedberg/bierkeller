@@ -1,0 +1,258 @@
+name: Bierkarte Datenverknuepfung
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - bierkarte_stammdaten.json
+      - bierkeller_gaeste.json
+      - bierpreise.json
+      - .github/workflows/bierkarte_sync.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  daten-verknuepfen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Sichere Bierkarten-Arbeitsdatei erstellen
+        run: |
+          python - <<'PYCODE'
+          #!/usr/bin/env python3
+          """Create a safe, non-publication beer-menu working view from repository JSON.
+          
+          Inputs are read-only. The printed beer menu is authoritative for menu positions.
+          No inventory, GTIN, AIDA, cost, or private metadata is exported.
+          """
+          from __future__ import annotations
+          
+          import argparse
+          from collections import Counter
+          from datetime import date
+          from hashlib import sha256
+          import json
+          from pathlib import Path
+          import re
+          import sys
+          
+          
+          def read_json(path: Path):
+              with path.open("r", encoding="utf-8-sig") as file:
+                  return json.load(file)
+          
+          
+          def content_hash(path: Path) -> str:
+              return sha256(path.read_bytes()).hexdigest()
+          
+          
+          def text_value(x):
+              return str(x or "").strip()
+          
+          
+          def number_value(x):
+              if x is None or x == "" or isinstance(x, bool):
+                  return None
+              try:
+                  return float(str(x).replace(",", "."))
+              except (TypeError, ValueError):
+                  return None
+          
+          
+          def year_values(name, vintage):
+              years = set(re.findall(r"\b(?:19|20)\d{2}\b", text_value(name)))
+              if isinstance(vintage, (int, str)):
+                  v = text_value(vintage)
+                  if re.fullmatch(r"(?:19|20)\d{2}", v):
+                      years.add(v)
+              return years
+          
+          
+          def unique_index(items, field):
+              index = {}
+              for row in items:
+                  k = text_value(row.get(field))
+                  if not k:
+                      raise ValueError(f"Missing {field} in a source record")
+                  if k in index:
+                      raise ValueError(f"Duplicate {field}: {k}")
+                  index[k] = row
+              return index
+          
+          
+          def safe_link(menu, cellar):
+              """Only accept links explicitly and uniquely verified in the catalog."""
+              status = menu.get("abgleich_status")
+              cellar_id = text_value(menu.get("bierkeller_id"))
+              github_id = text_value(menu.get("github_id"))
+              if status == "id_quellenkonflikt":
+                  return None, "quellenkonflikt", ["Widerspruch zwischen Excel- und GitHub-ID"]
+              if status == "produktfamilie_erkannt":
+                  return None, "variante_offen", ["Gebinde oder Jahrgang nicht eindeutig zugeordnet"]
+              if status != "eindeutig_vorhanden":
+                  return None, "kein_stammdatenlink", []
+              if not cellar_id:
+                  return None, "link_ohne_id", ["Eindeutige Zuordnung ohne Stammdaten-ID"]
+              if not menu.get("in_github_bierkeller"):
+                  return None, "nur_excel", ["ID bislang nur in BK_Biere-Excel nachgewiesen"]
+              if github_id != cellar_id:
+                  return None, "link_id_widerspruch", ["GitHub-ID widerspricht Stammdaten-ID"]
+              b = cellar.get(cellar_id)
+              if b is None:
+                  return None, "github_id_fehlt", ["Bestands-ID fehlt in der aktuellen GitHub-JSON"]
+          
+              warnings = []
+              menu_vol = number_value(menu.get("volumen_ml"))
+              cellar_vol = number_value(b.get("volumen_ml"))
+              if menu_vol is not None and cellar_vol is not None and menu_vol != cellar_vol:
+                  warnings.append(f"Abweichende Flaschengroesse: Karte {menu_vol:g} ml, Bestand {cellar_vol:g} ml")
+              menu_years = year_values(menu.get("name"), None)
+              cellar_years = year_values(b.get("name"), b.get("vintage"))
+              if menu_years and cellar_years and menu_years != cellar_years:
+                  warnings.append("Abweichender Jahrgang: Karte und Bestand nennen unterschiedliche Jahre")
+              elif menu_years and not cellar_years:
+                  warnings.append("Jahrgang steht nur auf der Karte, nicht im Bestandsdatensatz")
+              if warnings:
+                  return None, "variante_pruefen", warnings
+              return b, "verknuepft", []
+          
+          
+          def build(menu_data, cellar_data, prices_data, sources):
+              menu = menu_data.get("biere")
+              if not isinstance(menu, list) or not menu:
+                  raise ValueError("bierkarte_stammdaten.json must have a nonempty biere array")
+              if not isinstance(cellar_data, list):
+                  raise ValueError("bierkeller_gaeste.json must be an array")
+              if not isinstance(prices_data.get("preisstufen"), list):
+                  raise ValueError("bierpreise.json must contain preisstufen")
+              unique_index(menu, "id")
+              cellar = unique_index(cellar_data, "id")
+              prices = unique_index(prices_data["preisstufen"], "code")
+          
+              result = []
+              stats = Counter()
+              errors = []
+              for item in menu:
+                  identifier = item["id"]
+                  code = text_value(item.get("preiscode")) or None
+                  if code and code not in prices:
+                      errors.append(f"{identifier}: unbekannter Preiscode {code}")
+                  cellar_row, link_status, warnings = safe_link(item, cellar)
+                  stats[link_status] += 1
+                  # All guest-facing product names, groups, sizes, and percentages remain
+                  # owned by the printed-menu catalog. The cellar is supplemental only.
+                  pairings = []
+                  stil = None
+                  land = item.get("land") or None
+                  if cellar_row is not None:
+                      stil = text_value(cellar_row.get("stilStandard")) or None
+                      if not land:
+                          land = text_value(cellar_row.get("land")) or None
+                      raw_pairings = cellar_row.get("pairings")
+                      if isinstance(raw_pairings, str):
+                          pairings = [x.strip() for x in raw_pairings.split(",") if x.strip()]
+                      elif isinstance(raw_pairings, list):
+                          pairings = [text_value(x) for x in raw_pairings if text_value(x)]
+          
+                  # Intentionally no current price, inventory, AIDA/GTIN, purchase
+                  # cost, cellar position, stock count, or private notes in this view.
+                  result.append({
+                      "id": identifier,
+                      "name": item.get("name"),
+                      "brauerei": item.get("brauerei"),
+                      "gruppe": item.get("gruppe"),
+                      "zusatzgruppen": item.get("zusatzgruppen") or [],
+                      "land": land,
+                      "alkohol_pct": item.get("alkohol_pct"),
+                      "volumen_ml": item.get("volumen_ml"),
+                      "gebinde": item.get("gebinde"),
+                      "bierstil_standard": stil,
+                      "foodpairing": pairings,
+                      "preiscode": code,
+                      "preisstand": prices_data.get("version"),
+                      "preis_eur_aktuell": None,
+                      "auf_bierkarte_historisch": bool(item.get("auf_bierkarte")),
+                      "status_in_bierkarte_2025": item.get("status_im_pdf"),
+                      "freigabe_aktuell": False,
+                      "online_anzeigen": False,
+                      "bierkeller_id": cellar_row["id"] if cellar_row is not None else None,
+                      "verknuepfungsstatus": link_status,
+                      "pruefhinweise": warnings,
+                  })
+              if errors:
+                  raise ValueError("Invalid pricecodes:\n" + "\n".join(errors))
+              if len(result) != len(menu):
+                  raise AssertionError("Menu entries were lost")
+          
+              return {
+                  "schemaVersion": 1,
+                  "typ": "ARBEITSDATEN_NICHT_LIVE",
+                  "hinweis": "Fuehrend ist die historische gedruckte Bierkarte. Keine aktuelle Preis- oder Verfuegbarkeitsfreigabe.",
+                  "freigabe_fuer_website": False,
+                  "preisstand": prices_data.get("version"),
+                  "anzahl_bierkartenpositionen": len(result),
+                  "verknuepfungsstatistik": dict(sorted(stats.items())),
+                  "quellen_sha256": sources,
+                  "biere": result,
+              }
+          
+          
+          def main():
+              parser = argparse.ArgumentParser(description=__doc__)
+              parser.add_argument("--root", default=".", help="GitHub repository root")
+              parser.add_argument("--output", default="bierkarte_verknuepft.json")
+              args = parser.parse_args()
+              root = Path(args.root).resolve()
+              src = {
+                  "bierkarte_stammdaten.json": root / "bierkarte_stammdaten.json",
+                  "bierkeller_gaeste.json": root / "bierkeller_gaeste.json",
+                  "bierpreise.json": root / "bierpreise.json",
+              }
+              result = build(
+                  read_json(src["bierkarte_stammdaten.json"]),
+                  read_json(src["bierkeller_gaeste.json"]),
+                  read_json(src["bierpreise.json"]),
+                  {name: content_hash(path) for name, path in src.items()},
+              )
+              dest = root / args.output
+              dest.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+              print(f"Saved {dest.name} ({result['anzahl_bierkartenpositionen']} menu positions)")
+              for status, count in result["verknuepfungsstatistik"].items():
+                  print(f"  {status}: {count}")
+              print("No guest publication, stock, GTIN, AIDA or current pricing data exported.")
+          
+          
+          if __name__ == "__main__":
+              try:
+                  main()
+              except (OSError, ValueError, KeyError, TypeError) as exc:
+                  print(f"DATA ERROR: {exc}", file=sys.stderr)
+                  sys.exit(1)
+          PYCODE
+      - name: Ergebnis als Rueckfallsicherung ablegen
+        uses: actions/upload-artifact@v4
+        with:
+          name: bierkarte-verknuepft
+          path: bierkarte_verknuepft.json
+          retention-days: 30
+      - name: Nur die erzeugte Datei aktualisieren
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bierkarte_verknuepft.json
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen."
+            exit 0
+          fi
+          git commit -m "Bierkarte: Verknuepfte Arbeitsdaten aktualisieren"
+          git push
