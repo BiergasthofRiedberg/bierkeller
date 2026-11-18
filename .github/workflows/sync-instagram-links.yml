@@ -1,0 +1,59 @@
+name: Sync Instagram link list
+on:
+  schedule:
+    - cron: '17 * * * *'
+      timezone: Europe/Vienna
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sync-instagram-links
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check configuration
+        id: config
+        shell: bash
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_USERNAME: ${{ secrets.IG_USERNAME }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          if [[ -n "$IG_USER_ID" && -n "$IG_USERNAME" && -n "$IG_ACCESS_TOKEN" ]]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Instagram sync prepared but inactive. Add IG_USER_ID, IG_USERNAME, IG_ACCESS_TOKEN as repository Actions secrets."
+          fi
+      - name: Check out repository
+        if: steps.config.outputs.configured == 'true'
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        if: steps.config.outputs.configured == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Synchronize published Instagram posts
+        if: steps.config.outputs.configured == 'true'
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_USERNAME: ${{ secrets.IG_USERNAME }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          META_GRAPH_HOST: ${{ vars.META_GRAPH_HOST || 'graph.instagram.com' }}
+          META_API_VERSION: ${{ vars.META_API_VERSION || 'v27.0' }}
+        run: node scripts/sync_instagram_links.mjs
+      - name: Commit updated link list
+        if: steps.config.outputs.configured == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add instagram-links.json
+          if git diff --cached --quiet; then
+            echo "No new Instagram links to commit."
+          else
+            git commit -m "Instagram Biergasthof: Linkliste automatisiert aktualisiert"
+            git push
+          fi
