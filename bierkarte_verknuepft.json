@@ -14,7 +14,7 @@
     "verknuepft": 61
   },
   "quellen_sha256": {
-    "bierkarte_stammdaten.json": "c176f51cf141c1a7b27ee8a2899405ed73d856a9b9bf1681af4d4eafbf269050",
+    "bierkarte_stammdaten.json": "d07ff30e8c7355ba6a420936a66e351a8bfa8613140cf2d490deb487a0d430dc",
     "bierkeller_gaeste.json": "1230a498dc13f95ab8e0d062b8e6353dfb9c42957319344213afad8fe191704e",
     "bierpreise.json": "3420572cca79a29069625837185144cb66209a3e4cdf6b6b4dd66fdb7e8f98a5"
   },
@@ -270,7 +270,7 @@
       "preisstand": "2026",
       "preis_eur_aktuell": null,
       "auf_bierkarte_historisch": true,
-      "status_in_bierkarte_2025": "angeboten",
+      "status_in_bierkarte_2025": "ausgetrunken",
       "freigabe_aktuell": false,
       "online_anzeigen": false,
       "bierkeller_id": null,
